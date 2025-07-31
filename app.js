@@ -101,7 +101,7 @@ if (GrosBras_random === 1) {
     }function Spider_Curl_chaise_lit() {
         window.open(URL=("https://www.youtube.com/watch?v=J1PKSTZs3Cw"))
     }function Isométrie_90o_Curl_Alterné() {
-        window.open("assets/Isométrie 90° + Curl Alterné.mp4")
+        window.open("Isométrie 90° + Curl Alterné.mp4")
     }function Tractions_négatives() {
         window.open(URL=("https://www.youtube.com/watch?v=J99MX_0dsak"))
     }function Tractions_supination() {
