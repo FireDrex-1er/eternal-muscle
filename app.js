@@ -181,7 +181,20 @@ setInterval(() => {
      ////////////
     // MOBILE //
    ////////////
+    // 3.5 pouce      320-379 px largeur  480-830 px hauteur
+    if (document.body.clientWidth >= 320 && document.body.clientHeight >= 480 && document.body.clientWidth <= 379 && document.body.clientHeight <= 830) {
 
+        Texte2_1.style.fontSize="15.5px"
+        Texte2_2.style.fontSize="15.5px"
+        Texte2_3.style.fontSize="15.5px"
+        Texte2_4.style.fontSize="15.5px"
+        Texte2_5.style.fontSize="15.5px"
+        Texte2_6.style.fontSize="15.5px"
+        Texte1.style.fontSize="15px"
+        TEXTE1.style.width="45%"
+        TEXTE1.style.height="10%"
+        
+    }
     // 6.1 pouce      380-574 px largeur   830-929 px hauteur 
     if (document.body.clientWidth >= 380 && document.body.clientHeight >= 830 && document.body.clientWidth < 575 && document.body.clientHeight < 930) {
 
