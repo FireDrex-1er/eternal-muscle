@@ -175,52 +175,24 @@ if (GrosBras_random === 1) {
 
 }
 
-alert(document.body.clientWidth+" x "+document.body.clientHeight+" px")
 
 setInterval(() => {
 
      ////////////
     // MOBILE //
    ////////////
-    // 3.5 pouce      320-379 px largeur  480-830 px hauteur
-    if (document.body.clientWidth >= 320 && document.body.clientHeight >= 480 && document.body.clientWidth <= 379 && document.body.clientHeight <= 830) {
+   
+    // 3.5 pouce à 8 pouce        320-769 px largeur   480-1029 px hauteur 
+    if (document.body.clientWidth >= 320 && document.body.clientHeight >= 480 && document.body.clientWidth < 769 && document.body.clientHeight < 1029) {
 
-        Texte2_1.style.fontSize="15.5px"
-        Texte2_2.style.fontSize="15.5px"
-        Texte2_3.style.fontSize="15.5px"
-        Texte2_4.style.fontSize="15.5px"
-        Texte2_5.style.fontSize="15.5px"
-        Texte2_6.style.fontSize="15.5px"
-        Texte1.style.fontSize="15px"
-        TEXTE1.style.width="45%"
-        TEXTE1.style.height="10%"
-        
-    }
-    // 6.1 pouce      380-574 px largeur   830-929 px hauteur 
-    if (document.body.clientWidth >= 380 && document.body.clientHeight >= 830 && document.body.clientWidth < 575 && document.body.clientHeight < 930) {
-
-        Texte2_1.style.fontSize="20px"
-        Texte2_2.style.fontSize="20px"
-        Texte2_3.style.fontSize="20px"
-        Texte2_4.style.fontSize="20px"
-        Texte2_5.style.fontSize="20px"
-        Texte2_6.style.fontSize="20px"
-        Texte1.style.fontSize="22px"
-        TEXTE1.style.width="45%"
-        TEXTE1.style.height="12%"
-        
-    }
-    // 8 pouce        575-769 px largeur   930-1029 px hauteur 
-    if (document.body.clientWidth >= 575 && document.body.clientHeight >= 930 && document.body.clientWidth < 770 && document.body.clientHeight < 1030) {
-
-        Texte2_1.style.fontSize="28px"
-        Texte2_2.style.fontSize="28px"
-        Texte2_3.style.fontSize="28px"
-        Texte2_4.style.fontSize="28px"
-        Texte2_5.style.fontSize="28px"
-        Texte2_6.style.fontSize="28px"
-        Texte1.style.fontSize="35px"
-        TEXTE1.style.width="45%"
+        Texte2_1.style.fontSize="17px"
+        Texte2_2.style.fontSize="17px"
+        Texte2_3.style.fontSize="17px"
+        Texte2_4.style.fontSize="17px"
+        Texte2_5.style.fontSize="17px"
+        Texte2_6.style.fontSize="17px"
+        Texte1.style.fontSize="25px"
+        TEXTE1.style.width="50%"
         TEXTE1.style.height="15%"
         
 
