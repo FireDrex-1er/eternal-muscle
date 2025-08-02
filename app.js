@@ -175,6 +175,7 @@ if (GrosBras_random === 1) {
 
 }
 
+alert(document.body.clientWidth+" x "+document.body.clientHeight+" px")
 
 setInterval(() => {
 
