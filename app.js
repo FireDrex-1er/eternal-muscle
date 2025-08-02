@@ -40,7 +40,7 @@ if (GrosBras_random === 1) {
 
     if (Texte2_random === 1) {
         
-        Texte2_1.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3-4 S de 10-12 Rep par bras    <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
+        Texte2_1.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras    <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
         Texte2_2.innerHTML=`Exercice 🟡 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
         Texte2_3.innerHTML=`Exercice 🟠 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
         Texte2_4.innerHTML=`Exercice 🔴 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
