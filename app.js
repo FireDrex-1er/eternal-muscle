@@ -40,58 +40,58 @@ if (GrosBras_random === 1) {
 
     if (Texte2_random === 1) {
         
-        Texte2_1.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras    <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
-        Texte2_2.innerHTML=`Exercice 🟡 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
-        Texte2_3.innerHTML=`Exercice 🟠 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
-        Texte2_4.innerHTML=`Exercice 🔴 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
-        Texte2_5.innerHTML=`Exercice 🟤 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
-        Texte2_6.innerHTML=`Exercice ⚫ : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
+        Texte2_1.innerHTML=`🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras    <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
+        Texte2_2.innerHTML=`🟢 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
+        Texte2_3.innerHTML=`🟡 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
+        Texte2_4.innerHTML=`🟡 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
+        Texte2_5.innerHTML=`🔴 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
+        Texte2_6.innerHTML=`🔴 : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
 
     
     }if (Texte2_random === 2) {
         
-        Texte2_1.innerHTML=`Exercice ⚫ : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
-        Texte2_2.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras         <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
-        Texte2_3.innerHTML=`Exercice 🟡 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
-        Texte2_4.innerHTML=`Exercice 🟠 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
-        Texte2_5.innerHTML=`Exercice 🔴 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
-        Texte2_6.innerHTML=`Exercice 🟤 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
+        Texte2_1.innerHTML=`🔴 : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
+        Texte2_2.innerHTML=`🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras         <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
+        Texte2_3.innerHTML=`🟢 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
+        Texte2_4.innerHTML=`🟡 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
+        Texte2_5.innerHTML=`🟡 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
+        Texte2_6.innerHTML=`🔴 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
     
     }if (Texte2_random === 3) {
         
-        Texte2_1.innerHTML=`Exercice 🟤 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
-        Texte2_2.innerHTML=`Exercice ⚫ : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
-        Texte2_3.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras         <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
-        Texte2_4.innerHTML=`Exercice 🟡 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
-        Texte2_5.innerHTML=`Exercice 🟠 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
-        Texte2_6.innerHTML=`Exercice 🔴 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
+        Texte2_1.innerHTML=`🔴 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
+        Texte2_2.innerHTML=`🔴 : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
+        Texte2_3.innerHTML=`🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras         <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
+        Texte2_4.innerHTML=`🟢 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
+        Texte2_5.innerHTML=`🟡 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
+        Texte2_6.innerHTML=`🟡 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
     
     }if (Texte2_random === 4) {
         
-        Texte2_1.innerHTML=`Exercice 🔴 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
-        Texte2_2.innerHTML=`Exercice 🟤 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
-        Texte2_3.innerHTML=`Exercice ⚫ : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
-        Texte2_4.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras         <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
-        Texte2_5.innerHTML=`Exercice 🟡 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
-        Texte2_6.innerHTML=`Exercice 🟠 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
+        Texte2_1.innerHTML=`🟡 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
+        Texte2_2.innerHTML=`🔴 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
+        Texte2_3.innerHTML=`🔴 : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
+        Texte2_4.innerHTML=`🟢 : Curl Concentré 🔁 3 S de 10 Rep par bras         <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
+        Texte2_5.innerHTML=`🟢 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
+        Texte2_6.innerHTML=`🟡 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
     
     }if (Texte2_random === 5) {
         
-        Texte2_1.innerHTML=`Exercice 🟠 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
-        Texte2_2.innerHTML=`Exercice 🔴 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
-        Texte2_3.innerHTML=`Exercice 🟤 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
-        Texte2_4.innerHTML=`Exercice ⚫ : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
-        Texte2_5.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3 S de 10 Reps par bras        <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
-        Texte2_6.innerHTML=`Exercice 🟡 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
+        Texte2_1.innerHTML=`🟡 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
+        Texte2_2.innerHTML=`🟡 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
+        Texte2_3.innerHTML=`🔴 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
+        Texte2_4.innerHTML=`🔴 : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
+        Texte2_5.innerHTML=`🟢 : Curl Concentré 🔁 3 S de 10 Reps par bras        <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
+        Texte2_6.innerHTML=`🟢 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
     
     }if (Texte2_random === 6) {
         
-        Texte2_1.innerHTML=`Exercice 🟡 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
-        Texte2_2.innerHTML=`Exercice 🟠 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
-        Texte2_3.innerHTML=`Exercice 🔴 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
-        Texte2_4.innerHTML=`Exercice 🟤 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
-        Texte2_5.innerHTML=`Exercice ⚫ : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
-        Texte2_6.innerHTML=`Exercice 🟢 : Curl Concentré 🔁 3 S de 10 Reps par bras        <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
+        Texte2_1.innerHTML=`🟢 : Curl 21 🔁 3 S de 21 Rep                         <div class="Video" id="Video" onclick="Curl_21()"></div>`;
+        Texte2_2.innerHTML=`🟡 : Spider Curl sur chaise/lit 🔁 3 S de 8 Reps      <div class="Video" id="Video" onclick="Spider_Curl_chaise_lit()"></div>`;
+        Texte2_3.innerHTML=`🟡 : Isométrie 90° + Curl Alterné 🔁 2 S de 10 Reps   <div class="Video" id="Video" onclick="Isométrie_90o_Curl_Alterné()"></div>`;
+        Texte2_4.innerHTML=`🔴 : Tractions négatives 🔁 4 S de 4 Reps             <div class="Video" id="Video" onclick="Tractions_négatives()"></div>`;
+        Texte2_5.innerHTML=`🔴 : Tractions supination 🔁 4 S de 4 Reps            <div class="Video" id="Video" onclick="Tractions_supination()"></div>`;
+        Texte2_6.innerHTML=`🟢 : Curl Concentré 🔁 3 S de 10 Reps par bras        <div class="Video" id="Video" onclick="Curl_Concentré()"></div>`;
     
     }
 
@@ -181,7 +181,7 @@ setInterval(() => {
      ////////////
     // MOBILE //
    ////////////
-   
+
     // 3.5 pouce à 8 pouce        320-769 px largeur   480-1029 px hauteur 
     if (document.body.clientWidth >= 320 && document.body.clientHeight >= 480 && document.body.clientWidth < 769 && document.body.clientHeight < 1029) {
 
