@@ -390,15 +390,4 @@ setInterval(() => {
         
     }
     
-
-        Texte2_1.style.fontSize="59px"
-        Texte2_2.style.fontSize="59px"
-        Texte2_3.style.fontSize="59px"
-        Texte2_4.style.fontSize="59px"
-        Texte2_5.style.fontSize="59px"
-        Texte2_6.style.fontSize="59px"
-        Texte1.style.fontSize="70px"
-        TEXTE1.style.width="35%"
-        TEXTE1.style.height="16%"
-    
 }, 500);
