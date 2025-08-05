@@ -16,11 +16,6 @@ let Texte2_random = Tableau_Texte2[Math.floor(Math.random() * Tableau_Texte2.len
 
 
 
-// Aléatoir //
-GrosBras_random = 1;
-
-
-
 console.log("::::::::::::::::::::::::::::::::::::::");
 console.log("");
 console.log("     Tableau_Texte2 : "+Tableau_Texte2);
@@ -32,6 +27,8 @@ console.log("     Tableau_GrosBras : "+Tableau_GrosBras);
 console.log("     GrosBras_random : "+GrosBras_random);
 console.log("");
 console.log("::::::::::::::::::::::::::::::::::::::");
+
+
 
 
 if (GrosBras_random === 1) {
@@ -113,66 +110,76 @@ if (GrosBras_random === 1) {
     
     Texte1.innerHTML=`GROS BRAS(triceps)`;
 
-    
-
     if (Texte2_random === 1) {
         
-        Texte2_1.innerHTML="Exercice 🟢 : Curl Concentré";
-        Texte2_2.innerHTML="Exercice 🟡 : Curl 21";
-        Texte2_3.innerHTML="Spider 🟠 : Curl sur chaise/lit";
-        Texte2_4.innerHTML="Exercice 🔴 : Isométrie 90° + Curl Alterné";
-        Texte2_5.innerHTML="Exercice 🟤 : Tractions négatives";
-        Texte2_6.innerHTML="Exercice ⚫ : Tractions supination";
+        Texte2_1.innerHTML=`🟢 : Kickbacks 🔁 3 x 15 Reps par bras              <div class="Video" id="Video" onclick="Kickbacks()"></div>`;
+        Texte2_2.innerHTML=`🟢 : Overhead unilatéral 🔁 3 x 12 par bras Reps    <div class="Video" id="Video" onclick="Overhead_unilatéral()"></div>`;
+        Texte2_3.innerHTML=`🟡 : Pompes serrées 🔁 3 x 20 Reps                  <div class="Video" id="Video" onclick="Pompes_serrées()"></div>`;
+        Texte2_4.innerHTML=`🟡 : Overhead Triceps Extension 🔁 4 x 12 Reps      <div class="Video" id="Video" onclick="Overhead_Triceps_Extension()"></div>`;
+        Texte2_5.innerHTML=`🔴 : Skullcrushers 🔁 4 x 12 Reps                   <div class="Video" id="Video" onclick="Skullcrushers()"></div>`;
+        Texte2_6.innerHTML=`🔴 : Dips(entre chaises lestés) 🔁 4 x 15 Reps             <div class="Video" id="Video" onclick="Dips_lestés_lents()"></div>`;
+
     
     }if (Texte2_random === 2) {
         
-        
-        Texte2_1.innerHTML="Exercice ⚫ : Tractions supination";
-        Texte2_2.innerHTML="Exercice 🟢 : Curl Concentré";
-        Texte2_3.innerHTML="Exercice 🟡 : Curl 21";
-        Texte2_4.innerHTML="Spider 🟠 : Curl sur chaise/lit";
-        Texte2_5.innerHTML="Exercice 🔴 : Isométrie 90° + Curl Alterné";
-        Texte2_6.innerHTML="Exercice 🟤 : Tractions négatives";
+        Texte2_1.innerHTML=`🔴 : Dips(entre chaises lestés) 🔁 4 x 15 Reps             <div class="Video" id="Video" onclick="Dips_lestés_lents()"></div>`;
+        Texte2_2.innerHTML=`🟢 : Kickbacks 🔁 3 x 15 Reps par bras              <div class="Video" id="Video" onclick="Kickbacks()"></div>`;
+        Texte2_3.innerHTML=`🟢 : Overhead unilatéral 🔁 3 x 12 par bras Reps    <div class="Video" id="Video" onclick="Overhead_unilatéral()"></div>`;
+        Texte2_4.innerHTML=`🟡 : Pompes serrées 🔁 3 x 20 Reps                  <div class="Video" id="Video" onclick="Pompes_serrées()"></div>`;
+        Texte2_5.innerHTML=`🟡 : Overhead Triceps Extension 🔁 4 x 12 Reps      <div class="Video" id="Video" onclick="Overhead_Triceps_Extension()"></div>`;
+        Texte2_6.innerHTML=`🔴 : Skullcrushers 🔁 4 x 12 Reps                   <div class="Video" id="Video" onclick="Skullcrushers()"></div>`;
     
     }if (Texte2_random === 3) {
         
-        
-        Texte2_1.innerHTML="Exercice 🟤 : Tractions négatives";
-        Texte2_2.innerHTML="Exercice ⚫ : Tractions supination";
-        Texte2_3.innerHTML="Exercice 🟢 : Curl Concentré";
-        Texte2_4.innerHTML="Exercice 🟡 : Curl 21";
-        Texte2_5.innerHTML="Spider 🟠 : Curl sur chaise/lit";
-        Texte2_6.innerHTML="Exercice 🔴 : Isométrie 90° + Curl Alterné";
+        Texte2_1.innerHTML=`🔴 : Skullcrushers 🔁 4 x 12 Reps                   <div class="Video" id="Video" onclick="Skullcrushers()"></div>`;
+        Texte2_2.innerHTML=`🔴 : Dips(entre chaises lestés) 🔁 4 x 15 Reps             <div class="Video" id="Video" onclick="Dips_lestés_lents()"></div>`;
+        Texte2_3.innerHTML=`🟢 : Kickbacks 🔁 3 x 15 Reps par bras              <div class="Video" id="Video" onclick="Kickbacks()"></div>`;
+        Texte2_4.innerHTML=`🟢 : Overhead unilatéral 🔁 3 x 12 par bras Reps    <div class="Video" id="Video" onclick="Overhead_unilatéral()"></div>`;
+        Texte2_5.innerHTML=`🟡 : Pompes serrées 🔁 3 x 20 Reps                  <div class="Video" id="Video" onclick="Pompes_serrées()"></div>`;
+        Texte2_6.innerHTML=`🟡 : Overhead Triceps Extension 🔁 4 x 12 Reps      <div class="Video" id="Video" onclick="Overhead_Triceps_Extension()"></div>`;
     
     }if (Texte2_random === 4) {
         
-        Texte2_1.innerHTML="Exercice 🔴 : Isométrie 90° + Curl Alterné";
-        Texte2_2.innerHTML="Exercice 🟤 : Tractions négatives";
-        Texte2_3.innerHTML="Exercice ⚫ : Tractions supination";
-        Texte2_4.innerHTML="Exercice 🟢 : Curl Concentré";
-        Texte2_5.innerHTML="Exercice 🟡 : Curl 21";
-        Texte2_6.innerHTML="Spider 🟠 : Curl sur chaise/lit";
+        Texte2_1.innerHTML=`🟡 : Overhead Triceps Extension 🔁 4 x 12 Reps      <div class="Video" id="Video" onclick="Overhead_Triceps_Extension()"></div>`;
+        Texte2_2.innerHTML=`🔴 : Skullcrushers 🔁 4 x 12 Reps                   <div class="Video" id="Video" onclick="Skullcrushers()"></div>`;
+        Texte2_3.innerHTML=`🔴 : Dips(entre chaises lestés) 🔁 4 x 15 Reps             <div class="Video" id="Video" onclick="Dips_lestés_lents()"></div>`;
+        Texte2_4.innerHTML=`🟢 : Kickbacks 🔁 3 x 15 Reps par bras              <div class="Video" id="Video" onclick="Kickbacks()"></div>`;
+        Texte2_5.innerHTML=`🟢 : Overhead unilatéral 🔁 3 x 12 par bras Reps    <div class="Video" id="Video" onclick="Overhead_unilatéral()"></div>`;
+        Texte2_6.innerHTML=`🟡 : Pompes serrées 🔁 3 x 20 Reps                  <div class="Video" id="Video" onclick="Pompes_serrées()"></div>`;
     
     }if (Texte2_random === 5) {
         
-        Texte2_1.innerHTML="Spider 🟠 : Curl sur chaise/lit";
-        Texte2_2.innerHTML="Exercice 🔴 : Isométrie 90° + Curl Alterné";
-        Texte2_3.innerHTML="Exercice 🟤 : Tractions négatives";
-        Texte2_4.innerHTML="Exercice ⚫ : Tractions supination";
-        Texte2_5.innerHTML="Exercice 🟢 : Curl Concentré";
-        Texte2_6.innerHTML="Exercice 🟡 : Curl 21";
+        Texte2_1.innerHTML=`🟡 : Pompes serrées 🔁 3 x 20 Reps                  <div class="Video" id="Video" onclick="Pompes_serrées()"></div>`;
+        Texte2_2.innerHTML=`🟡 : Overhead Triceps Extension 🔁 4 x 12 Reps      <div class="Video" id="Video" onclick="Overhead_Triceps_Extension()"></div>`;
+        Texte2_3.innerHTML=`🔴 : Skullcrushers 🔁 4 x 12 Reps                   <div class="Video" id="Video" onclick="Skullcrushers()"></div>`;
+        Texte2_4.innerHTML=`🔴 : Dips(entre chaises lestés) 🔁 4 x 15 Reps             <div class="Video" id="Video" onclick="Dips_lestés_lents()"></div>`;
+        Texte2_5.innerHTML=`🟢 : Kickbacks 🔁 3 x 15 Reps par bras              <div class="Video" id="Video" onclick="Kickbacks()"></div>`;
+        Texte2_6.innerHTML=`🟢 : Overhead unilatéral 🔁 3 x 12 par bras Reps    <div class="Video" id="Video" onclick="Overhead_unilatéral()"></div>`;
     
     }if (Texte2_random === 6) {
         
-        Texte2_1.innerHTML="Exercice 🟡 : Curl 21";
-        Texte2_2.innerHTML="Spider 🟠 : Curl sur chaise/lit";
-        Texte2_3.innerHTML="Exercice 🔴 : Isométrie 90° + Curl Alterné";
-        Texte2_4.innerHTML="Exercice 🟤 : Tractions négatives";
-        Texte2_5.innerHTML="Exercice ⚫ : Tractions supination";
-        Texte2_6.innerHTML="Exercice 🟢 : Curl Concentré";
+        Texte2_1.innerHTML=`🟢 : Overhead unilatéral 🔁 3 x 12 par bras Reps    <div class="Video" id="Video" onclick="Overhead_unilatéral()"></div>`;
+        Texte2_2.innerHTML=`🟡 : Pompes serrées 🔁 3 x 20 Reps                  <div class="Video" id="Video" onclick="Pompes_serrées()"></div>`;
+        Texte2_3.innerHTML=`🟡 : Overhead Triceps Extension 🔁 4 x 12 Reps      <div class="Video" id="Video" onclick="Overhead_Triceps_Extension()"></div>`;
+        Texte2_4.innerHTML=`🔴 : Skullcrushers 🔁 4 x 12 Reps                   <div class="Video" id="Video" onclick="Skullcrushers()"></div>`;
+        Texte2_5.innerHTML=`🔴 : Dips(entre chaises lestés) 🔁 4 x 15 Reps             <div class="Video" id="Video" onclick="Dips_lestés_lents()"></div>`;
+        Texte2_6.innerHTML=`🟢 : Kickbacks 🔁 3 x 15 Reps par bras              <div class="Video" id="Video" onclick="Kickbacks()"></div>`;
     
     }
 
+    function Kickbacks() {
+        window.open(URL=("https://www.youtube.com/shorts/ZGjHc9NnJ-4"))
+    }function Overhead_unilatéral() {
+        window.open(URL=("https://www.youtube.com/watch?v=b-bDkXESbRg"))
+    }function Pompes_serrées() {
+        window.open(URL=("https://www.youtube.com/watch?v=NcilMIfCWHc"))
+    }function Overhead_Triceps_Extension() {
+        window.open("https://www.youtube.com/watch?v=-Vyt2QdsR7E&t=11s")
+    }function Skullcrushers() {
+        window.open(URL=("https://www.youtube.com/shorts/whUDFbWQjBI"))
+    }function Dips_lestés_lents() {
+        window.open(URL=("https://www.youtube.com/shorts/1UGPXksj2k4"))
+    }
 }
 
 
