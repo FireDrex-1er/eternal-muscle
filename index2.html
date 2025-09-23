@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sporto Menu</title>
-    <link rel="icon" href="https://pixil.nyc3.digitaloceanspaces.com/images/art/pending/290746.png" type="image/x-icon">
+    <link rel="icon" href="assets/Logo_lion.png" type="image/x-icon">
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+        body{
+            padding: 0%;
+            margin: 0%;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
         
         #bar_navigation{
             
@@ -17,6 +21,8 @@
             height: 9%;
             width: 100%;
             background-color: #1a1a1a;
+            user-select: none;
+            z-index: 1;
 
         }
         #logo{
@@ -37,27 +43,216 @@
             position: fixed;
             top: 50%;
             left: 0%;
-            transform: translate(0%,-50%);
+            transform: translate(0%,-60%);
             font-size: 40px;
             height: 100%;
             text-align: center;
             align-content: center;
             color: white;
             font-family: "Akaya Kanadaka", system-ui;
+            font-weight: 600;
         }
+        #Menu_echaufement, #Menu_exercice, #Menu_video{
+            position: absolute;
+            transform: translate(-50%,20%);
+            color: #dddddd;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "Roboto", sans-serif;
+            text-align: center;
+            align-content: center;
+            height: 100%;
+            user-select: none;
+            cursor: pointer;
+        }#Menu_echaufement_bar,#Menu_exercice_bar,#Menu_video_bar{
+            color: #1a1a1a;
+        } #Menu_echaufement{
+            left: 55%;
+        }#Menu_echaufement:hover, #Menu_echaufement:hover span{
+            color: #ffbb00;
+        }#Menu_exercice{
+            left: 71.5%;
+        }#Menu_exercice:hover, #Menu_exercice:hover span{
+            color: #ffbb00;
+        }#Menu_video{
+            left: 85%;
+        }#Menu_video:hover, #Menu_video:hover span{
+            color: #ffbb00;
+        }
+        #Menu_chapitre1{
+            position: absolute;
+            top: 9%;
+            left: 0%;
+            width: 100%;
+            height: 91%;
+            z-index: 0;
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            text-align: center;
 
+
+        }#Menu_chapitre1_titre{
+            font-size: 25px;
+            color: #ffbb00;
+            font-weight: 700;
+            text-align: center;
+        }#Menu_chapitre1_texte{
+            position: absolute;
+            width: 55%;
+            transform: translate(-50%);
+            text-align: left;
+            left: 50%;
+        }
+        #Menu_chapitre2{
+            position: absolute;
+            top: 70%;
+            left: 0%;
+            width: 100%;
+            height: 65%;
+            z-index: 0;
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            text-align: center;
+            background-color: #f7f7f7;
+
+
+        }#Menu_chapitre2_titre{
+            font-size: 25px;
+            color: #ffbb00;
+            font-weight: 700;
+            text-align: center;
+        }#Menu_chapitre2_texte{
+            position: absolute;
+            width: 55%;
+            transform: translate(-50%);
+            text-align: left;
+            left: 50%;
+        }
+        #Menu_footer{
+            position: absolute;
+            top: 135%;
+            left: 0%;
+            width: 100%;
+            height: 35%;
+            z-index: 0;
+            font-family: "Roboto", sans-serif;
+            font-size: 17px;
+            text-align: center;
+            background-color: #312e2e;
+            user-select: none;
+        }#Menu_footer_createur_titre{
+
+            position: absolute;
+            top: 15%;
+            left: 42.5%;
+            transform: translate(-50%);
+            font-size: 20px;
+            font-weight: bold;
+            color: #dddddd;
+
+        }#Menu_footer_createur_titre_bar{
+
+            position: absolute;
+            top: 20%;
+            left: 40.5%;
+            font-size: 20px;
+            color: #ffbb00;
+
+        }#Menu_footer_createur_texte{
+            
+            position: absolute;
+            top: 30%;
+            left: 40.5%;
+            font-size: 20px;
+            color: #dddddd;
+            text-align: left;
+            text-decoration-style: none;
+            user-select: none;
+
+        }#Menu_footer_createur_texte a{
+            text-decoration: none;
+            color: #dddddd;
+            user-select: none;
+        }#Menu_footer_createur_texte a:hover{
+            color: #ffbb00;
+        }
     </style>
 </head>
 <body>
     <div id="bar_navigation">
         <div id="logo">
     
-            <img id="logo_img" src="https://pixil.nyc3.digitaloceanspaces.com/images/art/pending/290746.png">
+            <img id="logo_img" src="assets/Logo_lion.png">
             <div id="logo_text">sp<span style="color: #ffbb00;">OR</span>to</div>
             
         </div>
+        <div id="Menu_echaufement">Echauffement ▾<br><span id="Menu_echaufement_bar">___________________</span></div>
+        <div id="Menu_exercice">Exercice ▾<br><span id="Menu_exercice_bar">_______________</span></div>
+        <div id="Menu_video">Vidéo ▾<br><span id="Menu_video_bar">____________</span></div>
     </div>
+    <div id="Menu">
+        
+        <div id="Menu_chapitre1">
+
+           <br><br><br><br><br><span id="Menu_chapitre1_titre" >Fonctionnement du site</span><br><br>
+           <div id="Menu_chapitre1_texte">
+            
+                Le site a pour objectif principal d’aider les utilisateurs à progresser dans le domaine de la musculation, en leur fournissant des indications claires
+                et des outils pratiques pour s’entraîner correctement. Lorsqu’on souhaite commencer une séance, il est toujours conseillé de débuter par un
+                échauffement adapté. En effet, l’échauffement joue un rôle essentiel puisqu’il prépare le corps à l’effort, réduit considérablement les risques de 
+                blessures et permet d’améliorer la qualité de l’entraînement.<br><br>
+                
+                Pour accéder aux différentes propositions d’échauffement disponibles sur le site, il 
+                suffit de déplacer votre curseur vers la zone intitulée « Échauffement », qui est facilement repérable puisqu’elle se situe dans la partie supérieure 
+                de l’écran.<br><br>
+                
+                Une fois que votre souris est positionnée à proximité de cette section, vous pourrez alors cliquer sur l’échauffement qui vous convient
+                le mieux. Si jamais vous ne connaissez pas encore bien la nature de certains échauffements ou que vous hésitez sur un exercice en particulier, le 
+                site met également à disposition une section dédiée aux vidéos explicatives. Pour la trouver, il faut à nouveau diriger votre souris, cette fois-ci
+                vers le coin supérieur droit de la page, puis cliquer sur l’onglet « Vidéo ». Ces contenus visuels vous permettront de mieux comprendre chaque
+                mouvement et de vous entraîner en toute sécurité.<br><br>
+                
+                Enfin, toujours dans la partie supérieure droite de l’écran, se trouve l’onglet « Exercice », qui
+                rassemble l’ensemble des mouvements de musculation proposés. Ainsi, en suivant cet ordre logique — échauffement, vidéo, puis exercice —
+                vous avez à votre disposition une structure claire et progressive pour organiser votre entraînement de manière efficace et sans difficulté.
+
+           </div>
+           
+        </div>
+        <div id="Menu_chapitre2">
+
+           <br><br><br><br><br><span id="Menu_chapitre2_titre" >Légende : exercices & échauffement</span><br><br>
+           <div id="Menu_chapitre2_texte">
+
+            Sur ce site ou dans le cadre de tout programme de musculation, il est important de comprendre certains termes spécifiques que vous allez rencontrer fréquemment, car ils indiquent la manière dont vous devez réaliser vos exercices.<br><br>
+            Le premier terme est « Rep », qui est l’abréviation du mot « répétition ». Une répétition correspond à l’exécution complète d’un mouvement ou d’un exercice une seule fois, du début à la fin. Par exemple, si vous faites un curl avec un haltère, lever l’haltère jusqu’au niveau de l’épaule puis le redescendre complètement constitue une répétition. Chaque mouvement compte donc comme une « Rep », et le nombre total de répétitions vous permet de mesurer votre charge de travail pendant une série.<br><br>
+            Ensuite, vous rencontrerez le terme « RepMax ». Ce terme signifie que vous devez effectuer un exercice jusqu’à l’épuisement total de vos muscles, autrement dit, faire le plus grand nombre de répétitions possibles avec la charge que vous avez choisie jusqu’à ce que vous ne puissiez plus continuer sans compromettre votre technique. Cela permet de connaître votre maximum de force ou votre endurance sur un mouvement donné et est très utile pour progresser.<br><br>
+            Enfin, il y a des indications comme « 40% RepMax ». Cela signifie que vous devez réaliser l’exercice en utilisant une charge ou un nombre de répétitions correspondant à 40 % de votre maximum possible, c’est-à-dire de votre RepMax. En pratique, si votre RepMax est de 10 répétitions avant de vous fatiguer complètement, faire 40 % RepMax correspond à environ 4 répétitions avec la même charge, ou parfois un calcul basé sur la charge si c’est un pourcentage de poids. L’objectif est de travailler de manière plus modérée, sans aller jusqu’à l’épuisement total, afin de pouvoir faire plusieurs séries ou d’améliorer votre technique progressivement.<br><br>
+
+           </div>
+
+        </div>
+
+    </div>
+    <div id="Menu_footer">
+
+        <div id="Menu_footer_createur">
+
+            <span id="Menu_footer_createur_titre">Créateur</span><br><br>
+            <span id="Menu_footer_createur_titre_bar">______</span>
+            <span id="Menu_footer_createur_texte">
+                <a href="tel:+33650393962">📞 +33(0)6 50 39 39 39 62</a><br>
+                <br>👦 Timothé Fortier<br>
+                <br><a href="mailto:timothefortier64+sportov5@gmail.com">📨 timothefortier64+sportov5@gmail.com</a>
+            </span>
+
+        </div>
+
+    </div>
+    
+
     <script>
     </script>
 </body>
 </html>
+
