@@ -1,21 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sporto Menu</title>
+    <link rel="icon" href="https://pixil.nyc3.digitaloceanspaces.com/images/art/pending/290746.png" type="image/x-icon">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+        
+        #bar_navigation{
+            
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            height: 9%;
+            width: 100%;
+            background-color: #1a1a1a;
+
+        }
+        #logo{
+            position: fixed;
+            top: 1%;
+            left: 22.5%;
+            transform: translate(-50%,0%);
+            height: 8%;
+            width: auto;
+            background-color: black;
+        }#logo_img{
+            position: fixed;
+            top: 50%;
+            left: 0%;
+            transform: translate(-100%,-50%);
+            height: 80%;
+        }#logo_text{
+            position: fixed;
+            top: 50%;
+            left: 0%;
+            transform: translate(0%,-50%);
+            font-size: 40px;
+            height: 100%;
+            text-align: center;
+            align-content: center;
+            color: white;
+            font-family: "Akaya Kanadaka", system-ui;
+        }
+
+    </style>
 </head>
 <body>
+    <div id="bar_navigation">
+        <div id="logo">
     
+            <img id="logo_img" src="https://pixil.nyc3.digitaloceanspaces.com/images/art/pending/290746.png">
+            <div id="logo_text">sp<span style="color: #ffbb00;">OR</span>to</div>
+            
+        </div>
+    </div>
     <script>
-        let une_fois = 0;
-            if (une_fois == 0) {
-                
-                une_fois = 1;
-                window.open(URL="https://zoom.us/j/6634011930?from=join")
-                
-            }
-        
     </script>
 </body>
 </html>
