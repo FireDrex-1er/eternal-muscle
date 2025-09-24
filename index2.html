@@ -176,6 +176,81 @@
         }#Menu_footer_createur_texte a:hover{
             color: #ffbb00;
         }
+        #sous_bar_navigation_echauffement{
+            
+            position: fixed;
+            top: -100%;
+            left: 49.4%;
+            z-index: 1;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            color: #dddddd;
+            user-select: none;
+            cursor: pointer;
+            background-color: #000000;
+
+            width: 16%;
+
+        }#sous_bar_navigation_echauffement1, #sous_bar_navigation_echauffement2, #sous_bar_navigation_echauffement3, #sous_bar_navigation_echauffement4{
+
+            padding: 5%;
+
+        }#sous_bar_navigation_echauffement div:hover{
+
+            background-color: #312e2e;
+            color: #ffbb00;
+
+        }
+        #sous_bar_navigation_exercice{
+            
+            position: fixed;
+            top: -100%;
+            left: 67.1%;
+            z-index: 2;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            color: #dddddd;
+            user-select: none;
+            cursor: pointer;
+            background-color: #000000;
+
+            width: 16%;
+
+        }#sous_bar_navigation_exercice1, #sous_bar_navigation_exercice2, #sous_bar_navigation_exercice3, #sous_bar_navigation_exercice4{
+
+            padding: 5%;
+
+        }#sous_bar_navigation_exercice div:hover{
+
+            background-color: #312e2e;
+            color: #ffbb00;
+
+        }
+        #sous_bar_navigation_video{
+            
+            position: fixed;
+            top: -100%;
+            left: 81.4%;
+            z-index: 2;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+            color: #dddddd;
+            user-select: none;
+            cursor: pointer;
+            background-color: #000000;
+
+            width: 16%;
+
+        }#sous_bar_navigation_video1, #sous_bar_navigation_video2, #sous_bar_navigation_video3, #sous_bar_navigation_video4{
+
+            padding: 5%;
+
+        }#sous_bar_navigation_video div:hover{
+
+            background-color: #312e2e;
+            color: #ffbb00;
+
+        }
     </style>
 </head>
 <body>
@@ -249,10 +324,81 @@
         </div>
 
     </div>
-    
+    <div id="sous_bar_navigation">
+
+        <div id="sous_bar_navigation_echauffement">
+            <div id="sous_bar_navigation_echauffement1">haut du corps</div>
+            <div id="sous_bar_navigation_echauffement2">Bras</div>
+            <div id="sous_bar_navigation_echauffement3">millieux du corps</div>
+            <div id="sous_bar_navigation_echauffement4">Jambe</div>
+        </div>
+        <div id="sous_bar_navigation_exercice">
+            <div id="sous_bar_navigation_exercice1">haut du corps</div>
+            <div id="sous_bar_navigation_exercice2">Bras</div>
+            <div id="sous_bar_navigation_exercice3">millieux du corps</div>
+            <div id="sous_bar_navigation_exercice4">Jambe</div>
+        </div>
+        <div id="sous_bar_navigation_video">
+            <div id="sous_bar_navigation_video1">haut du corps</div>
+            <div id="sous_bar_navigation_video2">Bras</div>
+            <div id="sous_bar_navigation_video3">millieux du corps</div>
+            <div id="sous_bar_navigation_video4">Jambe</div>
+        </div>
+
+    </div>
 
     <script>
+        const Menu_echaufement = document.getElementById("Menu_echaufement");const Sous_Menu_echaufement = document.getElementById("sous_bar_navigation_echauffement");
+        Menu_echaufement.addEventListener("mouseenter",ouvrir_Menu_echaufement);Sous_Menu_echaufement.addEventListener("mouseenter",ouvrir_Menu_echaufement);
+        Menu_echaufement.addEventListener("mouseleave",fermer_Menu_echaufement);Sous_Menu_echaufement.addEventListener("mouseleave",fermer_Menu_echaufement);
+        
+        const Menu_exercice = document.getElementById("Menu_exercice");const Sous_Menu_exercice = document.getElementById("sous_bar_navigation_exercice");
+        Menu_exercice.addEventListener("mouseenter",ouvrir_Menu_exercice);Sous_Menu_exercice.addEventListener("mouseenter",ouvrir_Menu_exercice);
+        Menu_exercice.addEventListener("mouseleave",fermer_Menu_exercice);Sous_Menu_exercice.addEventListener("mouseleave",fermer_Menu_exercice);
+        
+        const Menu_video = document.getElementById("Menu_video");const Sous_Menu_video = document.getElementById("sous_bar_navigation_video");
+        Menu_video.addEventListener("mouseenter",ouvrir_Menu_video);Sous_Menu_video.addEventListener("mouseenter",ouvrir_Menu_video);
+        Menu_video.addEventListener("mouseleave",fermer_Menu_video);Sous_Menu_video.addEventListener("mouseleave",fermer_Menu_video);
+        
+
+        
+        function ouvrir_Menu_echaufement() {
+            
+            Sous_Menu_echaufement.style.top="8.5%"
+
+        }
+        function fermer_Menu_echaufement() {
+            
+            Sous_Menu_echaufement.style.top="-100%"
+
+        }
+        
+        
+        function ouvrir_Menu_exercice() {
+            
+            Sous_Menu_exercice.style.top="8.5%"
+
+        }
+        function fermer_Menu_exercice() {
+            
+            Sous_Menu_exercice.style.top="-100%"
+
+        }
+        
+        
+        function ouvrir_Menu_video() {
+            
+            Sous_Menu_video.style.top="8.5%"
+
+        }
+        function fermer_Menu_video() {
+            
+            Sous_Menu_video.style.top="-100%"
+
+        }
+        
     </script>
 </body>
 </html>
+
 
