@@ -22,7 +22,7 @@
             width: 100%;
             background-color: #1a1a1a;
             user-select: none;
-            z-index: 1;
+            z-index: 2;
 
         }
         #logo{
@@ -33,6 +33,7 @@
             height: 8%;
             width: auto;
             background-color: black;
+            cursor: pointer;
         }#logo_img{
             position: fixed;
             top: 50%;
@@ -140,6 +141,7 @@
             text-align: center;
             background-color: #312e2e;
             user-select: none;
+            z-index: 2;
         }#Menu_footer_createur_titre{
 
             position: absolute;
@@ -181,7 +183,7 @@
             position: fixed;
             top: -100%;
             left: 49.4%;
-            z-index: 1;
+            z-index: 2;
             font-family: "Roboto", sans-serif;
             font-weight: bold;
             color: #dddddd;
@@ -250,6 +252,33 @@
             background-color: #312e2e;
             color: #ffbb00;
 
+        }
+        #zone_text{
+            position: absolute;
+            top: -300%;
+            left: 0%;
+            height: 127%;
+            width: 100%;
+            z-index: 1;
+            background-color: #dddddd;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            user-select: none;
+            
+        }.sous_zone_text{
+
+            position:absolute;
+            transform: translate(-50%);
+            text-align: left;
+            user-select: text;
+        }.sous_zone_titre{
+
+            font-size: 30px;
+            color: #ffbb00;
+            font-weight: 800;
+            user-select: text;
         }
     </style>
 </head>
@@ -346,6 +375,7 @@
         </div>
 
     </div>
+    <div id="zone_text"></div>
 
     <script>
         const Menu_echaufement = document.getElementById("Menu_echaufement");const Sous_Menu_echaufement = document.getElementById("sous_bar_navigation_echauffement");
@@ -360,6 +390,13 @@
         Menu_video.addEventListener("mouseenter",ouvrir_Menu_video);Sous_Menu_video.addEventListener("mouseenter",ouvrir_Menu_video);
         Menu_video.addEventListener("mouseleave",fermer_Menu_video);Sous_Menu_video.addEventListener("mouseleave",fermer_Menu_video);
         
+        const Sous_Menu_echaufement_bras = document.getElementById("sous_bar_navigation_echauffement2");
+        const zone_text = document.getElementById("zone_text");
+        Sous_Menu_echaufement_bras.addEventListener("click",ouvrir_zone_text_echauffement_bras);
+        
+        const Menu_logo = document.getElementById("logo");
+        Menu_logo.addEventListener("click",ouvrir_Menu_logo);
+
 
         
         function ouvrir_Menu_echaufement() {
@@ -397,8 +434,89 @@
 
         }
         
+        function ouvrir_zone_text_echauffement_bras() {
+            
+            Sous_Menu_echaufement.style.top="-100%"
+            zone_text.style.top="9%"
+            zone_text.innerHTML=`
+            <br>
+            <br>
+            <span class="sous_zone_titre">
+                Muscler le poignet
+            </span>
+            <br>
+            <br>
+            <span class="sous_zone_text">
+                Flexion palmaire : plier la main vers la paume
+                <br>
+                Extension dorsale : plier la main vers le dos
+                <br>
+                Inclinaison radiale : plier la main du côté du pouce
+                <br>
+                Inclinaison ulnaire : plier la main du côté de l’auriculaire.
+            </span>
+            <br>
+            <br>
+            <br>
+            <br>
+    
+            <br>
+            <br>
+            <span class="sous_zone_titre">
+                Muscler le coude
+            </span>
+            <br>
+            <br>
+            <span class="sous_zone_text">
+                Flexion : plier l’avant-bras vers le bras
+                <br>
+                Extension : tendre l’avant-bras, l’éloigner du bras
+            </span>
+            <br>
+            <br>
+    
+            <br>
+            <br>
+            <span class="sous_zone_titre">
+                Muscler rotation de l’avant-bras 
+            </span>
+            <br>
+            <br>
+            <span class="sous_zone_text">
+                Pronation : tourner la paume vers le bas
+                <br>
+                Supination : tourner la paume vers le haut
+            </span>
+            <br>
+            <br>
+            
+            <br>
+            <br>
+            <span class="sous_zone_titre">
+                Répétition & Série
+            </span>
+            <br>
+            <br>
+            <span class="sous_zone_text">
+                Pour chaque échauffement fait 50 % RepMax de 3 série
+                <br>
+                pause de 25s entre chaque échauffement
+            </span>
+            <br>
+            <br>
+    
+            <br>
+            <br>
+            <br>
+    
+            `;
+        }
+
+        function ouvrir_Menu_logo() {
+            
+            zone_text.style.top="-300%"
+
+        }
     </script>
-</body>
-</html>
-
-
+</body>     
+</html>     
