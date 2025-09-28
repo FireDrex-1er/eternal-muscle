@@ -53,7 +53,7 @@
             font-family: "Akaya Kanadaka", system-ui;
             font-weight: 600;
         }
-        #Menu_echaufement, #Menu_exercice, #Menu_video{
+        #Menu_echaufement, #Menu_exercice, #Menu_explication{
             position: absolute;
             transform: translate(-50%,20%);
             color: #dddddd;
@@ -65,7 +65,7 @@
             height: 100%;
             user-select: none;
             cursor: pointer;
-        }#Menu_echaufement_bar,#Menu_exercice_bar,#Menu_video_bar{
+        }#Menu_echaufement_bar,#Menu_exercice_bar,#Menu_explication_bar{
             color: #1a1a1a;
         } #Menu_echaufement{
             left: 55%;
@@ -75,9 +75,9 @@
             left: 71.5%;
         }#Menu_exercice:hover, #Menu_exercice:hover span{
             color: #ffbb00;
-        }#Menu_video{
-            left: 85%;
-        }#Menu_video:hover, #Menu_video:hover span{
+        }#Menu_explication{
+            left: 86.3%;
+        }#Menu_explication:hover, #Menu_explication:hover span{
             color: #ffbb00;
         }
         #Menu_chapitre1{
@@ -216,7 +216,7 @@
             cursor: pointer;
             background-color: #000000;
 
-            width: 16%;
+            width: 13%;
 
         }#sous_bar_navigation_exercice1, #sous_bar_navigation_exercice2, #sous_bar_navigation_exercice3, #sous_bar_navigation_exercice4{
 
@@ -228,11 +228,11 @@
             color: #ffbb00;
 
         }
-        #sous_bar_navigation_video{
+        #sous_bar_navigation_explication{
             
             position: fixed;
             top: -100%;
-            left: 81.4%;
+            left: 81.6%;
             z-index: 2;
             font-family: "Roboto", sans-serif;
             font-weight: bold;
@@ -241,13 +241,13 @@
             cursor: pointer;
             background-color: #000000;
 
-            width: 16%;
+            width: 15%;
 
-        }#sous_bar_navigation_video1, #sous_bar_navigation_video2, #sous_bar_navigation_video3, #sous_bar_navigation_video4{
+        }#sous_bar_navigation_explication1, #sous_bar_navigation_explication2, #sous_bar_navigation_explication3, #sous_bar_navigation_explication4{
 
             padding: 5%;
 
-        }#sous_bar_navigation_video div:hover{
+        }#sous_bar_navigation_explication div:hover{
 
             background-color: #312e2e;
             color: #ffbb00;
@@ -267,13 +267,21 @@
             font-weight: 600;
             user-select: none;
             
-        }.sous_zone_text{
+        }#sous_zone_text{
 
             position:absolute;
             transform: translate(-50%);
             text-align: left;
             user-select: text;
-        }.sous_zone_titre{
+
+        }#sous_zone_text1{
+
+            position:absolute;
+            transform: translate(-50%);
+            text-align: left;
+            user-select: text;
+            color: rgb(0, 119, 199);
+        }#sous_zone_titre{
 
             font-size: 30px;
             color: #ffbb00;
@@ -292,7 +300,7 @@
         </div>
         <div id="Menu_echaufement">Echauffement ▾<br><span id="Menu_echaufement_bar">___________________</span></div>
         <div id="Menu_exercice">Exercice ▾<br><span id="Menu_exercice_bar">_______________</span></div>
-        <div id="Menu_video">Vidéo ▾<br><span id="Menu_video_bar">____________</span></div>
+        <div id="Menu_explication">Explication ▾<br><span id="Menu_explication_bar">________________</span></div>
     </div>
     <div id="Menu">
         
@@ -312,12 +320,12 @@
                 
                 Une fois que votre souris est positionnée à proximité de cette section, vous pourrez alors cliquer sur l’échauffement qui vous convient
                 le mieux. Si jamais vous ne connaissez pas encore bien la nature de certains échauffements ou que vous hésitez sur un exercice en particulier, le 
-                site met également à disposition une section dédiée aux vidéos explicatives. Pour la trouver, il faut à nouveau diriger votre souris, cette fois-ci
-                vers le coin supérieur droit de la page, puis cliquer sur l’onglet « Vidéo ». Ces contenus visuels vous permettront de mieux comprendre chaque
+                site met également à disposition une section dédiée aux explicatives. Pour la trouver, il faut à nouveau diriger votre souris, cette fois-ci
+                vers le coin supérieur droit de la page, puis cliquer sur l’onglet « Explication ». Ces contenus écrit vous permettront de mieux comprendre chaque
                 mouvement et de vous entraîner en toute sécurité.<br><br>
                 
                 Enfin, toujours dans la partie supérieure droite de l’écran, se trouve l’onglet « Exercice », qui
-                rassemble l’ensemble des mouvements de musculation proposés. Ainsi, en suivant cet ordre logique — échauffement, vidéo, puis exercice —
+                rassemble l’ensemble des mouvements de musculation proposés. Ainsi, en suivant cet ordre logique — échauffement, Explication, puis exercice —
                 vous avez à votre disposition une structure claire et progressive pour organiser votre entraînement de manière efficace et sans difficulté.
 
            </div>
@@ -356,28 +364,29 @@
     <div id="sous_bar_navigation">
 
         <div id="sous_bar_navigation_echauffement">
-            <div id="sous_bar_navigation_echauffement1">haut du corps</div>
-            <div id="sous_bar_navigation_echauffement2">Bras</div>
-            <div id="sous_bar_navigation_echauffement3">millieux du corps</div>
-            <div id="sous_bar_navigation_echauffement4">Jambe</div>
+            <div id="sous_bar_navigation_echauffement1">...             </div>
+            <div id="sous_bar_navigation_echauffement2">membre supérieur</div>
+            <div id="sous_bar_navigation_echauffement3">...             </div>
+            <div id="sous_bar_navigation_echauffement4">membre inférieur</div>
         </div>
         <div id="sous_bar_navigation_exercice">
-            <div id="sous_bar_navigation_exercice1">haut du corps</div>
-            <div id="sous_bar_navigation_exercice2">Bras</div>
-            <div id="sous_bar_navigation_exercice3">millieux du corps</div>
-            <div id="sous_bar_navigation_exercice4">Jambe</div>
+            <div id="sous_bar_navigation_exercice1">...             </div>
+            <div id="sous_bar_navigation_exercice2">membre supérieur</div>
+            <div id="sous_bar_navigation_exercice3">...             </div>
+            <div id="sous_bar_navigation_exercice4">membre inférieur</div>
         </div>
-        <div id="sous_bar_navigation_video">
-            <div id="sous_bar_navigation_video1">haut du corps</div>
-            <div id="sous_bar_navigation_video2">Bras</div>
-            <div id="sous_bar_navigation_video3">millieux du corps</div>
-            <div id="sous_bar_navigation_video4">Jambe</div>
+        <div id="sous_bar_navigation_explication">
+            <div id="sous_bar_navigation_explication1">...             </div>
+            <div id="sous_bar_navigation_explication2">membre supérieur</div>
+            <div id="sous_bar_navigation_explication3">...             </div>
+            <div id="sous_bar_navigation_explication4">membre inférieur</div>
         </div>
 
     </div>
     <div id="zone_text"></div>
 
     <script>
+
         const Menu_echaufement = document.getElementById("Menu_echaufement");const Sous_Menu_echaufement = document.getElementById("sous_bar_navigation_echauffement");
         Menu_echaufement.addEventListener("mouseenter",ouvrir_Menu_echaufement);Sous_Menu_echaufement.addEventListener("mouseenter",ouvrir_Menu_echaufement);
         Menu_echaufement.addEventListener("mouseleave",fermer_Menu_echaufement);Sous_Menu_echaufement.addEventListener("mouseleave",fermer_Menu_echaufement);
@@ -386,16 +395,19 @@
         Menu_exercice.addEventListener("mouseenter",ouvrir_Menu_exercice);Sous_Menu_exercice.addEventListener("mouseenter",ouvrir_Menu_exercice);
         Menu_exercice.addEventListener("mouseleave",fermer_Menu_exercice);Sous_Menu_exercice.addEventListener("mouseleave",fermer_Menu_exercice);
         
-        const Menu_video = document.getElementById("Menu_video");const Sous_Menu_video = document.getElementById("sous_bar_navigation_video");
-        Menu_video.addEventListener("mouseenter",ouvrir_Menu_video);Sous_Menu_video.addEventListener("mouseenter",ouvrir_Menu_video);
-        Menu_video.addEventListener("mouseleave",fermer_Menu_video);Sous_Menu_video.addEventListener("mouseleave",fermer_Menu_video);
+        const Menu_explication = document.getElementById("Menu_explication");const Sous_Menu_explication = document.getElementById("sous_bar_navigation_explication");
+        Menu_explication.addEventListener("mouseenter",ouvrir_Menu_explication);Sous_Menu_explication.addEventListener("mouseenter",ouvrir_Menu_explication);
+        Menu_explication.addEventListener("mouseleave",fermer_Menu_explication);Sous_Menu_explication.addEventListener("mouseleave",fermer_Menu_explication);
         
-        const Sous_Menu_echaufement_bras = document.getElementById("sous_bar_navigation_echauffement2");
-        const zone_text = document.getElementById("zone_text");
-        Sous_Menu_echaufement_bras.addEventListener("click",ouvrir_zone_text_echauffement_bras);
+        const Sous_Menu_echaufement_membre_supérieur = document.getElementById("sous_bar_navigation_echauffement2");
+        Sous_Menu_echaufement_membre_supérieur.addEventListener("click",ouvrir_zone_text_echauffement_membre_supérieur);
+        const Sous_Menu_explication_membre_supérieur = document.getElementById("sous_bar_navigation_explication2");
+        Sous_Menu_explication_membre_supérieur.addEventListener("click",ouvrir_zone_text_explication_membre_supérieur);
         
         const Menu_logo = document.getElementById("logo");
         Menu_logo.addEventListener("click",ouvrir_Menu_logo);
+
+        const Menu_footer = document.getElementById("Menu_footer");
 
 
         
@@ -423,88 +435,226 @@
         }
         
         
-        function ouvrir_Menu_video() {
+        function ouvrir_Menu_explication() {
             
-            Sous_Menu_video.style.top="8.5%"
+            Sous_Menu_explication.style.top="8.5%"
 
         }
-        function fermer_Menu_video() {
+        function fermer_Menu_explication() {
             
-            Sous_Menu_video.style.top="-100%"
+            Sous_Menu_explication.style.top="-100%"
 
         }
         
-        function ouvrir_zone_text_echauffement_bras() {
+        function ouvrir_zone_text_echauffement_membre_supérieur() {
             
             Sous_Menu_echaufement.style.top="-100%"
             zone_text.style.top="9%"
+            window.scrollTo(0,0);
             zone_text.innerHTML=`
             <br>
             <br>
-            <span class="sous_zone_titre">
-                Muscler le poignet
-            </span>
-            <br>
-            <br>
-            <span class="sous_zone_text">
-                Flexion palmaire : plier la main vers la paume
-                <br>
-                Extension dorsale : plier la main vers le dos
-                <br>
-                Inclinaison radiale : plier la main du côté du pouce
-                <br>
-                Inclinaison ulnaire : plier la main du côté de l’auriculaire.
+
+
+            <span id="sous_zone_titre">
+                Main
             </span>
             <br>
             <br>
             <br>
+            <span id="sous_zone_text">
+                Fermeture du poing avec résistance : 60% RepMax
+                <br>
+                Écartement des doigts : 60% RepMax
+                <br>
+                Pince avec haltère : 60% RepMax
+                <br>
+                <span style="color: #27c400;">3 Séries, pause 15s</span> 
+            </span>
             <br>
+            <br>
+            <br>
+            <br>
+
     
             <br>
             <br>
-            <span class="sous_zone_titre">
-                Muscler le coude
+            <span id="sous_zone_titre">
+                Avant-bras 
             </span>
             <br>
             <br>
-            <span class="sous_zone_text">
-                Flexion : plier l’avant-bras vers le bras
+            <br>
+            <span id="sous_zone_text">
+                Pronation/Supination avec haltère : 50% RepMax
                 <br>
-                Extension : tendre l’avant-bras, l’éloigner du bras
-            </span>
-            <br>
-            <br>
-    
-            <br>
-            <br>
-            <span class="sous_zone_titre">
-                Muscler rotation de l’avant-bras 
-            </span>
-            <br>
-            <br>
-            <span class="sous_zone_text">
-                Pronation : tourner la paume vers le bas
+                Rotation contrôlée en position allongée : 50% RepMax
                 <br>
-                Supination : tourner la paume vers le haut
+                <span style="color: #27c400;">3 Séries, pause 20s</span>
             </span>
             <br>
             <br>
+            <br>
+
             
             <br>
             <br>
-            <span class="sous_zone_titre">
-                Répétition & Série
+            <span id="sous_zone_titre">
+                Bras
             </span>
             <br>
             <br>
-            <span class="sous_zone_text">
-                Pour chaque échauffement fait 50 % RepMax de 3 série
+            <br>
+            <span id="sous_zone_text">
+                Curl biceps avec haltères : 50% RepMax
                 <br>
-                pause de 25s entre chaque échauffement
+                Extensions triceps derrière la tête : 50% RepMax
+                <br>
+                Curl marteau : 50% RepMax
+                <br>
+                <span style="color: #27c400;">3 Séries, pause 25s</span>
             </span>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            
+            <br>
+            <br>
+            <span id="sous_zone_titre">
+                Epaule
+            </span>
+            <br>
+            <br>
+            <br>
+            <span id="sous_zone_text">
+                Lateral Raises : 50% RepMax
+                <br>
+                Front Raises : 50% RepMax
+                <br>
+                Rear Delt Raises : 50% RepMax
+                <br>
+                <span style="color: #27c400;">3 Séries, pause 25s</span>
+
+            </span>
+            <br>
+            <br>
             <br>
             <br>
     
+            `;
+        
+        }
+        function ouvrir_zone_text_explication_membre_supérieur() {
+                        
+            Sous_Menu_explication.style.top="-100%"
+            zone_text.style.top="9%";
+            window.scrollTo(0,0);
+                        zone_text.innerHTML=`
+            <br>
+            <br>
+
+
+            <span id="sous_zone_titre">
+                Main
+            </span>
+            <br>
+            <br>
+            <span id="sous_zone_text1">Fermeture du poing avec résistance :</span>
+            <br>
+            <span id="sous_zone_text">Assieds-toi, avant-bras posé sur ta cuisse ou ton genou pour le stabiliser.</span>
+            <br>
+            <span id="sous_zone_text">Ouvre la main complètement, doigts écartés.</span>
+            <br>
+            <span id="sous_zone_text">Referme le poing très fort, comme si tu voulais écraser quelque chose.</span>
+            <br>
+            <span id="sous_zone_text">Garde la contraction 3 à 5 secondes, Relâche doucement</span>
+            <br>
+            <br>
+            <span id="sous_zone_text1">Écartement des doigts :</span>
+            <br>
+            <span id="sous_zone_text">Place ta main à plat</span>
+            <br>
+            <span id="sous_zone_text">Écarte les doigts au maximum.</span>
+            <br>
+            <span id="sous_zone_text">Maintiens 3 secondes, relâche doucement.</span>
+            <br>
+            <br>
+            <span id="sous_zone_text1">Pince avec haltère :</span>
+            <br>
+            <span id="sous_zone_text">Mets l'haltère au sol, verticalement, disque en bas.</span>
+            <br>
+            <span id="sous_zone_text">Attrape-la avec les doigts contre le pouce, sur la tête du disque.</span>
+            <br>
+            <span id="sous_zone_text">Soulève-la et tiens 10 à 30 secondes, repose doucement.</span>
+
+    
+            <br>
+            <br>
+            <span id="sous_zone_titre">
+                Avant-bras 
+            </span>
+            <br>
+            <br>
+            <span id="sous_zone_text1">Flexion du poignet avec haltère :</span>
+            <br>
+            <span id="sous_zone_text">Assieds-toi, avant-bras posé à plat, main vers le haut, haltère en main.</span>
+            <br>
+            <span id="sous_zone_text">descendre l’haltère en ouvrant un peu les doigts, puis remonte-le en contractant le poignet.</span>
+            <br>
+            <br>
+            <span id="sous_zone_text1">Extension du poignet avec haltère :</span>
+            <br>
+            <span id="sous_zone_text">Assieds-toi, avant-bras posé à plat plane, main vers le bas, haltère en main.</span>
+            <br>
+            <span id="sous_zone_text">Descends lentement l’haltère, puis remonte-le uniquement avec le poignet.</span>
+            <br>
+            <br>
+            <span id="sous_zone_text1">Déviation radiale et ulnaire avec haltère :</span>
+            <br>
+            <span id="sous_zone_text">Assieds ou debout, avant-bras à plat, haltère tenu verticalement.</span>
+            <br>
+            <span id="sous_zone_text">Incline doucement le poignet à gauche puis à droite.</span>
+
+            
+            <br>
+            <br>
+            <span id="sous_zone_titre">
+                Bras
+            </span>
+            <br>
+            <br>
+            <br>
+            <span id="sous_zone_text">
+                Curl biceps avec haltères
+                <br>
+                Extensions triceps derrière la tête
+                <br>
+                Curl marteau
+                <br>
+            </span>
+            <br>
+            <br>
+            <br>
+
+            
+            <br>
+            <br>
+            <span id="sous_zone_titre">
+                Epaule
+            </span>
+            <br>
+            <br>
+            <br>
+            <span id="sous_zone_text">
+                Lateral Raises
+                <br>
+                Front Raises
+                <br>
+                Rear Delt Raises
+
+            </span>
             <br>
             <br>
             <br>
@@ -515,6 +665,7 @@
         function ouvrir_Menu_logo() {
             
             zone_text.style.top="-300%"
+            window.scrollTo(0,0);
 
         }
     </script>
