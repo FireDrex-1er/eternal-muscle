@@ -408,6 +408,7 @@
         Menu_logo.addEventListener("click",ouvrir_Menu_logo);
 
         const Menu_footer = document.getElementById("Menu_footer");
+        const zone_text = document.getElementById("zone_text");
 
 
         
@@ -486,9 +487,11 @@
             <br>
             <br>
             <span id="sous_zone_text">
-                Pronation/Supination avec haltère : 50% RepMax
+                Flexion du poignet avec haltère : 50% RepMax
                 <br>
-                Rotation contrôlée en position allongée : 50% RepMax
+                Extension du poignet avec haltère : 50% RepMax
+                <br>
+                Déviation radiale et ulnaire avec haltère : 50% RepMax
                 <br>
                 <span style="color: #27c400;">3 Séries, pause 20s</span>
             </span>
@@ -549,8 +552,9 @@
         function ouvrir_zone_text_explication_membre_supérieur() {
                         
             Sous_Menu_explication.style.top="-100%"
-            zone_text.style.top="9%";
+            zone_text.style.top="9%";zone_text.style.height="195%";
             window.scrollTo(0,0);
+            Menu_footer.style.top="200%"
                         zone_text.innerHTML=`
             <br>
             <br>
@@ -559,6 +563,7 @@
             <span id="sous_zone_titre">
                 Main
             </span>
+            <br>
             <br>
             <br>
             <span id="sous_zone_text1">Fermeture du poing avec résistance :</span>
@@ -592,9 +597,11 @@
     
             <br>
             <br>
+            <br>
             <span id="sous_zone_titre">
                 Avant-bras 
             </span>
+            <br>
             <br>
             <br>
             <span id="sous_zone_text1">Flexion du poignet avec haltère :</span>
@@ -620,25 +627,41 @@
             
             <br>
             <br>
+            <br>
             <span id="sous_zone_titre">
                 Bras
             </span>
             <br>
             <br>
             <br>
-            <span id="sous_zone_text">
-                Curl biceps avec haltères
-                <br>
-                Extensions triceps derrière la tête
-                <br>
-                Curl marteau
-                <br>
-            </span>
+            <span id="sous_zone_text1">Curl biceps avec haltères :</span>
+            <br>
+            <span id="sous_zone_text">Haltère dans chaque main, bras le long du corps, paumes tournées vers l’avant.</span>
+            <br>
+            <span id="sous_zone_text">Fléchis les coudes en montant les haltères vers tes épaules.</span>
+            <br>
+            <span id="sous_zone_text">Redescends lentement en contrôlant le mouvement.</span>
             <br>
             <br>
+            <span id="sous_zone_text1">Extensions triceps derrière la tête :</span>
             <br>
+            <span id="sous_zone_text">Tiens un haltère à deux mains, bras tendus au-dessus de ta tête.</span>
+            <br>
+            <span id="sous_zone_text">Plie les coudes et descends l’haltère derrière ta tête.</span>
+            <br>
+            <span id="sous_zone_text">Remonte en tendant complètement les bras.</span>
+            <br>
+            <br>
+            <span id="sous_zone_text1">Curl marteau  :</span>
+            <br>
+            <span id="sous_zone_text">Tiens un haltère dans chaque main, paumes face à face.</span>
+            <br>
+            <span id="sous_zone_text">Plie les coudes pour monter les haltères jusqu’aux épaules.</span>
+            <br>
+            <span id="sous_zone_text">Redescends doucement.</span>
 
             
+            <br>
             <br>
             <br>
             <span id="sous_zone_titre">
@@ -664,8 +687,9 @@
 
         function ouvrir_Menu_logo() {
             
-            zone_text.style.top="-300%"
+            zone_text.style.top="-300%";zone_text.style.height="127%"
             window.scrollTo(0,0);
+            Menu_footer.style.top="135%";
 
         }
     </script>
