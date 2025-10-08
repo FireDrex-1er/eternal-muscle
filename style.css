@@ -47,19 +47,21 @@ body{
 }#exercice_titre1er{
     font-size: 40px;
     font-weight: 400;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #d60;
     user-select:text;
+    font-weight: 800;
 }#exercice_titre2eme{
     font-size: 30px;
     font-weight: 500;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #077;
     user-select:text;
+    font-weight: 800;
 }#exercice_retour{
     color: #c00;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 500;
+    font-weight: 900;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #222;
     padding: 2%;
     border-radius: 20px;
