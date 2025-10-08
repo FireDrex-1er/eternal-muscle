@@ -1,0 +1,74 @@
+body{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: #aaa;
+}
+#tronc_supérieure, #tronc_antérieure, #membres_inférieurs, #membres_supérieurs{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    color: #d60;
+    background-color: #077;
+    padding: 1.5%;
+    text-align: center;
+}#tronc_supérieure{
+    top: 15%;
+}#tronc_antérieure{
+    top: 35%;
+}#membres_inférieurs{
+    top: 55%;
+}#membres_supérieurs{
+    top: 75%;
+}
+#exercice{
+    position: fixed;
+    left: 500%;
+    transform: translate(-50%);
+    width: 80%;
+
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    text-align: center;
+    user-select:text;
+}#exercice_titre1er{
+    font-size: 40px;
+    font-weight: 400;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #d60;
+    user-select:text;
+}#exercice_titre2eme{
+    font-size: 30px;
+    font-weight: 500;
+    font-family:impact,fantasy;
+    color: #077;
+    user-select:text;
+}#exercice_retour{
+    color: #800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: #222;
+    padding: 2%;
+    border-radius: 20%;
+    user-select: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+a{
+    color: #007;
+    text-decoration: none;
+}a:hover{
+    text-decoration: none;
+    color: #007;
+    text-decoration:underline;
+}
