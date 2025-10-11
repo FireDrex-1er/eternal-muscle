@@ -7,6 +7,7 @@ body{
     padding: 0%;
     margin: 0%;
     background-color: #ddd;
+    background-image: url(assets/fond\ exercice2.png    );
 }
 #tronc_supérieure, #tronc_antérieure, #membres_inférieurs, #membres_supérieurs{
     position: fixed;
@@ -44,6 +45,9 @@ body{
 
     text-align: center;
     user-select:text;
+
+    background-color: #035;
+    border-radius: 20px;
 }#exercice_titre1er{
     font-size: 40px;
     font-weight: 400;
@@ -70,10 +74,10 @@ body{
     font-size: 25px;
 }
 a{
-    color: #007;
+    color: #a50;
     text-decoration: none;
 }a:hover{
     text-decoration: none;
-    color: #007;
+    color: #a50;
     text-decoration:underline;
 }
