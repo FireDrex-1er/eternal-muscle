@@ -6,8 +6,7 @@ body{
     height: 100%;
     padding: 0%;
     margin: 0%;
-    background-color: #ddd;
-    background-image: url(assets/fond\ exercice2.png    );
+    background-color: #ffac4e;
 }
 #tronc_supérieure, #tronc_antérieure, #membres_inférieurs, #membres_supérieurs{
     position: fixed;
@@ -17,11 +16,12 @@ body{
     font-weight: 500;
     user-select: none;
     cursor: pointer;
-    color: #f70;
-    background-color: #035;
+    color: #ffc583;
+    text-shadow: 0px 0px 6px #7e4700,0px 0px 6px #7e4700;   
+    background-color: #d67900c5;
     padding: 1.5%;
     text-align: center;
-    box-shadow: 0px 0px 20px #555;
+    box-shadow: 0px 0px 20px #7e4700,0px 0px 30px #7e4700;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
 }#tronc_supérieure{
@@ -46,20 +46,14 @@ body{
     text-align: center;
     user-select:text;
 
-    background-color: #035;
-    border-radius: 20px;
-}#exercice_titre1er{
-    font-size: 40px;
-    font-weight: 400;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #d60;
-    user-select:text;
-    font-weight: 800;
-}#exercice_titre2eme{
+    background-color: #d67900c5;
+    box-shadow: 0px 0px 20px #7e4700,0px 0px 30px #7e4700;
+}#exercice_titre{
     font-size: 30px;
     font-weight: 500;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #077;
+    color: #ffc583;
+    text-shadow: 0px 0px 6px #7e4700,0px 0px 6px #7e4700;  
     user-select:text;
     font-weight: 800;
 }#exercice_retour{
@@ -74,10 +68,9 @@ body{
     font-size: 25px;
 }
 a{
-    color: #a50;
+    color: #f5e3e3;
     text-decoration: none;
+    text-shadow: 0px 0px 5px #000000;   
 }a:hover{
-    text-decoration: none;
-    color: #a50;
     text-decoration:underline;
 }
