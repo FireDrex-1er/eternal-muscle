@@ -68,4 +68,17 @@ window.addEventListener("click",()=>{
         document.getElementById("tronc_antérieure").style.left="50%";document.getElementById("tronc_supérieure").style.left="50%";
 
     });
+    
+
+setInterval(() => {
+    if (document.body.clientWidth > document.body.clientHeight) {
+        
+        
+        window.document.body.children["fond"].children["deco1"].style.width="5%";
+        window.document.body.children["fond"].children["deco2"].style.width="5%";
+        window.document.body.children["fond"].children["deco3"].style.width="5%";
+        window.document.body.children["fond"].children["deco4"].style.width="5%";
+    }
+}, 500);
 });
+
