@@ -77,13 +77,43 @@ window.addEventListener("click",()=>{
     });
 });
 
-setInterval(() => {
+window.addEventListener("load", function() {
+    
     if (document.body.clientWidth > document.body.clientHeight) {
-        
         
         window.document.body.children["fond"].children["deco1"].style.width="5%";
         window.document.body.children["fond"].children["deco2"].style.width="5%";
         window.document.body.children["fond"].children["deco3"].style.width="5%";
         window.document.body.children["fond"].children["deco4"].style.width="5%";
+    
+    }
+    
+    
+})
+
+setInterval(() => {
+    if (document.body.clientWidth > document.body.clientHeight) {
+        
+        window.document.body.children["fond"].children["deco1"].style.width="5%";
+        window.document.body.children["fond"].children["deco2"].style.width="5%";
+        window.document.body.children["fond"].children["deco3"].style.width="5%";
+        window.document.body.children["fond"].children["deco4"].style.width="5%";
+        
+        let exercice = document.body.children["exercice"];
+        exercice.style.fontSize=20*exercice.offsetWidth/1536+"px";
+        exercice.children["exercice_retour"].style.fontSize=25*exercice.offsetWidth/1536+"px";
+        exercice.children["exercice_retour"].style.padding="2%";exercice.children["exercice_retour"].style.borderRadius="20px";
+        
+    }   
+    if (document.body.clientWidth < document.body.clientHeight) {
+        
+        let exercice = document.body.children["exercice"];
+        exercice.style.fontSize=60*exercice.offsetWidth/1536+"px";
+        exercice.children["exercice_retour"].style.fontSize=75*exercice.offsetWidth/1536+"px";
+        exercice.children["exercice_retour"].style.padding="5%";exercice.children["exercice_retour"].style.borderRadius="10px";
+        
+
     }
 }, 500);
+
+
