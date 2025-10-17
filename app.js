@@ -1,6 +1,8 @@
 let ratio_Fenêtre = screen.width / screen.height;
 let retour = document.body.children["exercice"].children["exercice_retour"];
 
+// fond d'écrans
+
 const fond = document.body.children["fond"];
 fond.children["deco1"].style.position="fixed";fond.children["deco1"].style.transform="translate(-100%,-100%)";
 fond.children["deco1"].style.left="100%";fond.children["deco1"].style.top="100%";
@@ -26,17 +28,21 @@ document.getElementById("membres_supérieurs").addEventListener("click",()=>{
     retour = document.body.children["exercice"].children["exercice_retour"];
     document.getElementById("exercice").innerHTML=`
         
-        <br><br><span id="exercice_titre">Main</span><br><br>
-        <a href="https://www.youtube.com/watch?v=2Y91VvLJ6iA&t=115s">Complet</a><br><br>
-
-        <span id="exercice_titre">Avant-Bras</span><br><br>
-        <a href="https://www.youtube.com/watch?v=6GHFxkmFDk0&t=19s">Complet</a><br><br>
+        <br><br><span id="exercice_titre">Avant-Bras</span><br><br>
+        <a href="https://www.youtube.com/watch?v=powCAut6R1U">Curl inversé</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br>
+        <a href="https://www.youtube.com/watch?v=JvByaglWS88">Curl poigné</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br>
+        <a href="https://www.youtube.com/watch?v=Lp8oJ-qf4dc">Tirage inversé avec haltères</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br><br>
             
         <span id="exercice_titre">Bras</span><br><br>
-        <a href="https://youtu.be/FXa8AbKSTMk?t=16">Biceps</a><br>
-        <a href="https://www.youtube.com/shorts/QflBzYb2ocU?t=2&feature=share">Bracial anterieur</a><br>
-        <a href="https://youtu.be/gP_G_gZ6_Ng?t=16">Triceps</a><br><br><br><br><br>
-        <span id="exercice_retour">RETOUR</span><br><br><br><br><br><br>
+        <a href="https://www.youtube.com/watch?v=wBvTNeXcbxQ">Curl incliné</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=di2pTqQKdss&t=323s">info</a><br>
+        <!-- Niv sup traction supination -->
+        <a href="https://www.youtube.com/watch?v=eLLruiyy9wo">Curl pupitre à un bras</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/shorts/2Gk0A4FWyUE">info</a><br>
+        <a href="https://www.youtube.com/shorts/K3mFeNz4e3w">extention triché</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cXNeX_t08wQ&t=515s">info</a><br><br>
+        
+        <span id="exercice_titre">Epaule</span><br><br>
+        <a href="https://www.youtube.com/shorts/HQu6wkHu3Z8">Développé militaire</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/WYMludGzu48=584s">info</a>
+        
+        <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
         `;
 });document.getElementById("membres_inférieurs").addEventListener("click",()=>{
 
@@ -68,7 +74,7 @@ window.addEventListener("click",()=>{
         document.getElementById("tronc_antérieure").style.left="50%";document.getElementById("tronc_supérieure").style.left="50%";
 
     });
-    
+});
 
 setInterval(() => {
     if (document.body.clientWidth > document.body.clientHeight) {
@@ -80,5 +86,5 @@ setInterval(() => {
         window.document.body.children["fond"].children["deco4"].style.width="5%";
     }
 }, 500);
-});
+
 
