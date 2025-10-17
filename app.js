@@ -22,7 +22,7 @@ document.getElementById("membres_supérieurs").addEventListener("click",()=>{
     document.getElementById("membres_supérieurs").style.left="500%";document.getElementById("membres_inférieurs").style.left="500%";
     document.getElementById("tronc_antérieure").style.left="500%";document.getElementById("tronc_supérieure").style.left="500%";
     retour = document.body.children["exercice"].children["exercice_retour"];
-    fond.children["deco1"].style.width="0%";
+    fond.children["deco1"].style.width="1%";
     fond.children["deco2"].style.width="0%";
     fond.children["deco3"].style.width="0%";
     fond.children["deco4"].style.width="0%";
