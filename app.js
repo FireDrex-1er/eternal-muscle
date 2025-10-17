@@ -40,7 +40,8 @@ document.getElementById("membres_supérieurs").addEventListener("click",()=>{
         <a href="https://www.youtube.com/shorts/K3mFeNz4e3w">extention triché</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cXNeX_t08wQ&t=515s">info</a><br><br>
         
         <span id="exercice_titre">Epaule</span><br><br>
-        <a href="https://www.youtube.com/shorts/HQu6wkHu3Z8">Développé militaire</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/WYMludGzu48=584s">info</a>
+        <a href="https://www.youtube.com/shorts/HQu6wkHu3Z8">Développé militaire</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/WYMludGzu48=584s">info</a><br>
+        <a href="https://www.youtube.com/shorts/By_fcUxLOLU">oiseau alonger sur banc incliné</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/7--wCDtdGHM?t=312">info</a>
         
         <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
         `;
@@ -86,5 +87,3 @@ setInterval(() => {
         window.document.body.children["fond"].children["deco4"].style.width="5%";
     }
 }, 500);
-
-
