@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     position:absolute;
     top: 0%;
@@ -7,23 +8,29 @@ body{
     padding: 0%;
     margin: 0%;
     background-color: #ff9e4e;
-    background-color: #d68426c0;
+    background-color: #ff8800c0;
 }
 #tronc_supérieure, #tronc_antérieure, #membres_inférieurs, #membres_supérieurs{
     position: fixed;
     left: 50%;
     transform: translate(-50%);
     font-size: 30px;
-    font-weight: 500;
     user-select: none;
     cursor: pointer;
-    color: #ffbf83d5;
+    color: #ffc353;
     background-color: #d67900c5;
     padding: 1.5%;
     text-align: center;
     box-shadow: 0px 0px 10px #682a00;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Roboto", sans-serif;
     border-radius: 10px;
+
+    
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+
 }#tronc_supérieure{
     top: 15%;
 }#tronc_antérieure{
@@ -40,7 +47,7 @@ body{
     width: 80%;
 
     font-weight: bolder;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Akaya Kanadaka", system-ui;
 
     text-align: center;
     user-select:text;
@@ -49,21 +56,27 @@ body{
     box-shadow: 0px 0px 20px #4e2600;
 }#exercice_titre{
     font-size: 30px;
-    font-weight: 500;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffbf83d5;
     user-select:text;
-    font-weight: 800;
+
+    
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }#exercice_retour{
-    color: #c00;
-    font-weight: 900;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffd000d5;
     background-color: #222;
     padding: 2%;
     border-radius: 20px;
     user-select: none;
     cursor: pointer;
     font-size: 25px;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 a{
     color: #ddddddd3;
@@ -71,7 +84,7 @@ a{
 }a:hover{
     text-decoration:underline;
 }.info{
-    color: #1632d3d2;
+    color: #ffc760;
     text-decoration: none;
 }.info:hover{
     text-decoration: underline;
