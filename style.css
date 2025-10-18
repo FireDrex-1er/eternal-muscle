@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Alfa+Slab+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body{
     position:absolute;
     top: 0%;
@@ -7,8 +7,7 @@ body{
     height: 100%;
     padding: 0%;
     margin: 0%;
-    background-color: #ff9e4e;
-    background-color: #ff8800c0;
+    background-color: #cc6d00af;
 }
 #tronc_supérieure, #tronc_antérieure, #membres_inférieurs, #membres_supérieurs{
     position: fixed;
@@ -17,19 +16,16 @@ body{
     font-size: 30px;
     user-select: none;
     cursor: pointer;
-    color: #ffc353;
-    background-color: #d67900c5;
+    color: #ffc98b;
+    background-color: #f59a13;
+    box-shadow: 0px 0px 10px #ffbc6f;
     padding: 1.5%;
     text-align: center;
-    box-shadow: 0px 0px 10px #682a00;
-    font-family: "Roboto", sans-serif;
     border-radius: 10px;
 
-    
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }#tronc_supérieure{
     top: 15%;
@@ -52,18 +48,16 @@ body{
     text-align: center;
     user-select:text;
 
-    background-color: #d67900c5;
+    background-color: #f59b13a1;
     box-shadow: 0px 0px 20px #4e2600;
 }#exercice_titre{
     font-size: 30px;
     color: #ffbf83d5;
     user-select:text;
 
-    
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 }#exercice_retour{
     color: #ffd000d5;
     background-color: #222;
@@ -73,10 +67,9 @@ body{
     cursor: pointer;
     font-size: 25px;
 
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 a{
     color: #ddddddd3;
