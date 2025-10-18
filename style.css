@@ -6,7 +6,8 @@ body{
     height: 100%;
     padding: 0%;
     margin: 0%;
-    background-color: #ffac4e;
+    background-color: #ff9e4e;
+    background-color: #d68426c0;
 }
 #tronc_supérieure, #tronc_antérieure, #membres_inférieurs, #membres_supérieurs{
     position: fixed;
@@ -16,12 +17,11 @@ body{
     font-weight: 500;
     user-select: none;
     cursor: pointer;
-    color: #ffc583;
-    text-shadow: 0px 0px 6px #7e4700,0px 0px 6px #7e4700;   
+    color: #ffbf83d5;
     background-color: #d67900c5;
     padding: 1.5%;
     text-align: center;
-    box-shadow: 0px 0px 20px #7e4700,0px 0px 30px #7e4700;
+    box-shadow: 0px 0px 10px #682a00;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 10px;
 }#tronc_supérieure{
@@ -39,7 +39,6 @@ body{
     transform: translate(-50%);
     width: 80%;
 
-    font-size: 20px;
     font-weight: bolder;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -47,13 +46,12 @@ body{
     user-select:text;
 
     background-color: #d67900c5;
-    box-shadow: 0px 0px 20px #7e4700,0px 0px 30px #7e4700;
+    box-shadow: 0px 0px 20px #4e2600;
 }#exercice_titre{
     font-size: 30px;
     font-weight: 500;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #ffc583;
-    text-shadow: 0px 0px 6px #7e4700,0px 0px 6px #7e4700;  
+    color: #ffbf83d5;
     user-select:text;
     font-weight: 800;
 }#exercice_retour{
@@ -68,14 +66,12 @@ body{
     font-size: 25px;
 }
 a{
-    color: #f5e3e3;
+    color: #ddddddd3;
     text-decoration: none;
-    text-shadow: 0px 0px 5px #000000;   
 }a:hover{
     text-decoration:underline;
 }.info{
-    color: #0bb;
-    text-shadow: 0px 0px 5px rgb(0, 59, 59);   
+    color: #1632d3d2;
     text-decoration: none;
 }.info:hover{
     text-decoration: underline;
