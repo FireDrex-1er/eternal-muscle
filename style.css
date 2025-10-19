@@ -7,7 +7,7 @@ body{
     height: 100%;
     padding: 0%;
     margin: 0%;
-    background-color: #cc6d00af;
+    background-color: #222;
 }
 #tronc_supérieure, #tronc_antérieure, #membres_inférieurs, #membres_supérieurs{
     position: fixed;
@@ -16,9 +16,8 @@ body{
     font-size: 30px;
     user-select: none;
     cursor: pointer;
-    color: #ffc98b;
-    background-color: #f59a13;
-    box-shadow: 0px 0px 10px #ffbc6f;
+    color: #ddd;
+    background-color: #303030;
     padding: 1.5%;
     text-align: center;
     border-radius: 10px;
@@ -48,19 +47,20 @@ body{
     text-align: center;
     user-select:text;
 
-    background-color: #f59b13a1;
-    box-shadow: 0px 0px 20px #4e2600;
+    background-color: #303030;
+    color: #a83939;
+    box-shadow: 0px 0px 20px #aaa;
 }#exercice_titre{
     font-size: 30px;
-    color: #ffbf83d5;
+    color: #ddd;
     user-select:text;
 
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
     font-style: normal;
 }#exercice_retour{
-    color: #ffd000d5;
-    background-color: #222;
+    color: #ddd;
+    background-color: #900;
     padding: 2%;
     border-radius: 20px;
     user-select: none;
@@ -74,11 +74,11 @@ body{
 a{
     color: #ddddddd3;
     text-decoration: none;
-}a:hover{
-    text-decoration:underline;
+    cursor: text;
 }.info{
-    color: #ffc760;
+    color: #ddddddd3;
     text-decoration: none;
+    cursor: pointer;
 }.info:hover{
     text-decoration: underline;
 }
