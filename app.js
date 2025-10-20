@@ -15,7 +15,7 @@ document.body.children["Bras"].addEventListener("click",function () {
         <br><br><span id="exercie_exo">20-30 Répétition de 3 série</span> <a id="exercice_pause"> Pause 15s</a><br><br>
 
         <span id="exercice_titre">Avant-Bras</span><br><br>
-        <span id="exercie_nom">Contraction Poigné </span>      <a id="info" href="assets/Contraction Poigné.mp4">info</a><br>
+        <span id="exercie_nom">Contraction Poigné </span>      <a id="info" href="assets/ContractionPoigné.mp4">info</a><br>
         <span id="exercie_nom">Curl inversé </span>            <a id="info" href="https://www.youtube.com/watch?v=6GHFxkmFDk0">info</a><br>
         <span id="exercie_nom">Curl Contraction poigné </span> <a id="info" href="https://www.youtube.com/watch?v=6GHFxkmFDk0">info</a><br>
         <span id="exercie_nom">Curl poigné inversé  </span>    <a id="info" href="https://www.youtube.com/watch?v=6GHFxkmFDk0">info</a><br><br>
