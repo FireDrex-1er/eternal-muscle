@@ -36,6 +36,33 @@ document.body.children["Bras"].addEventListener("click",function () {
 
     `;
 
+});document.body.children["Jambe"].addEventListener("click",function () {
+   
+    const Exercice = document.body.children["exercice"];
+    const Bras = document.body.children["Bras"];
+    const Jambe = document.body.children["Jambe"];
+    const Dos = document.body.children["Dos"];
+    const Abdos = document.body.children["Abdos"];
+
+    Exercice.style.left="50%" // déplacer "Exercice" sur l'écrans
+    Bras.style.left="200%";Dos.style.left="200%";Jambe.style.left="200%";Abdos.style.left="200%"; // déplacer "Menu" en dehors de l'écrans
+    Exercice.innerHTML=`
+    
+        <br><br><span id="exercie_exo">20-30 Répétition de 3 série</span> <a id="exercice_pause"> Pause 15s</a><br><br>
+
+        <span id="exercice_titre">Jambe</span><br><br>
+        <span id="exercie_nom">...  </span>    <a id="info" href="">info</a><br><br>
+
+        <span id="exercice_titre">Cuisse</span><br><br>
+        <span id="exercie_nom">... </span>     <a id="info" href="">info</a><br><br>
+
+        <span id="exercice_titre">Fessier</span><br><br>
+        <span id="exercie_nom">... </span>     <a id="info" href="">info</a>
+
+        <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
+
+    `;
+
 });
 
 window.addEventListener("click",function () {
