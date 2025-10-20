@@ -1,121 +1,49 @@
-let ratio_Fenêtre = screen.width / screen.height;
-let retour = document.body.children["exercice"].children["exercice_retour"];
-let lieu = "menu";
 
-document.getElementById("membres_supérieurs").addEventListener("click",()=>{
+// clicker sur Bouton "bras" du Menu
+document.body.children["Bras"].addEventListener("click",function () {
+   
+    const Exercice = document.body.children["exercice"];
+    const Bras = document.body.children["Bras"];
+    const Jambe = document.body.children["Jambe"];
+    const Dos = document.body.children["Dos"];
+    const Abdos = document.body.children["Abdos"];
 
-    document.getElementById("exercice").style.left="50%";document.getElementById("exercice").style.position="absolute";
-    document.getElementById("membres_supérieurs").style.left="500%";document.getElementById("membres_inférieurs").style.left="500%";
-    document.getElementById("tronc_antérieure").style.left="500%";document.getElementById("tronc_supérieure").style.left="500%";
-    retour = document.body.children["exercice"].children["exercice_retour"];
-    lieu = "membres_supérieurs";
-    if (document.body.clientWidth < document.body.clientHeight) {
-        
-            exercice.innerHTML=`
-        
-                <br><br><span id="exercice_titre">Avant-Bras</span><br><br>
-                <a href="https://www.youtube.com/watch?v=powCAut6R1U">Curl inversé</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br>
-                <a href="https://www.youtube.com/watch?v=JvByaglWS88">Curl poigné</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br>
-                <a href="https://www.youtube.com/watch?v=Lp8oJ-qf4dc">Tirage inversé avec haltères</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br><br>
-                    
-                <span id="exercice_titre">Bras</span><br><br>
-                <a href="https://www.youtube.com/watch?v=wBvTNeXcbxQ">Curl incliné</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=di2pTqQKdss&t=323s">info</a><br>
-                <!-- Niv sup traction supination -->
-                <a href="https://www.youtube.com/watch?v=eLLruiyy9wo">Curl pupitre à un bras</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/shorts/2Gk0A4FWyUE">info</a><br>
-                <a href="https://www.youtube.com/shorts/K3mFeNz4e3w">extention triché</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cXNeX_t08wQ&t=515s">info</a><br><br>
-                
-                <span id="exercice_titre">Epaule</span><br><br>
-                <a href="https://www.youtube.com/shorts/HQu6wkHu3Z8">Développé militaire</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/WYMludGzu48=584s">info</a><br>
-                <a href="https://www.youtube.com/shorts/By_fcUxLOLU">oiseau alonger sur banc incliné</a><br>
-                <span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/7--wCDtdGHM?t=312">info</a>
-                
-                <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
-            `;
-    }else{
-            document.getElementById("exercice").innerHTML=`
-        
-                <br><br><span id="exercice_titre">Avant-Bras</span><br><br>
-                <a href="https://www.youtube.com/watch?v=powCAut6R1U">Curl inversé</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br>
-                <a href="https://www.youtube.com/watch?v=JvByaglWS88">Curl poigné</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br>
-                <a href="https://www.youtube.com/watch?v=Lp8oJ-qf4dc">Tirage inversé avec haltères</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cc4_BgSEL0o">info</a><br><br>
-                    
-                <span id="exercice_titre">Bras</span><br><br>
-                <a href="https://www.youtube.com/watch?v=wBvTNeXcbxQ">Curl incliné</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=di2pTqQKdss&t=323s">info</a><br>
-                <!-- Niv sup traction supination -->
-                <a href="https://www.youtube.com/watch?v=eLLruiyy9wo">Curl pupitre à un bras</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/shorts/2Gk0A4FWyUE">info</a><br>
-                <a href="https://www.youtube.com/shorts/K3mFeNz4e3w">extention triché</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://www.youtube.com/watch?v=cXNeX_t08wQ&t=515s">info</a><br><br>
-                
-                <span id="exercice_titre">Epaule</span><br><br>
-                <a href="https://www.youtube.com/shorts/HQu6wkHu3Z8">Développé militaire</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/WYMludGzu48=584s">info</a><br>
-                <a href="https://www.youtube.com/shorts/By_fcUxLOLU">oiseau alonger sur banc incliné</a><span> 80% RepMax x 3 séries </span><a class="info" href="https://youtu.be/7--wCDtdGHM?t=312">info</a>
-                
-                <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
-            `;
-    }
-});document.getElementById("membres_inférieurs").addEventListener("click",()=>{
-
-    document.getElementById("exercice").style.left="50%";document.getElementById("exercice").style.position="absolute";
-    document.getElementById("membres_supérieurs").style.left="500%";document.getElementById("membres_inférieurs").style.left="500%";
-    document.getElementById("tronc_antérieure").style.left="500%";document.getElementById("tronc_supérieure").style.left="500%";
-    document.getElementById("exercice").innerHTML=`<br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br>`;
-
-});document.getElementById("tronc_antérieure").addEventListener("click",()=>{
-
-    document.getElementById("exercice").style.left="50%";document.getElementById("exercice").style.position="absolute";
-    document.getElementById("membres_supérieurs").style.left="500%";document.getElementById("membres_inférieurs").style.left="500%";
-    document.getElementById("tronc_antérieure").style.left="500%";document.getElementById("tronc_supérieure").style.left="500%";
-    document.getElementById("exercice").innerHTML=`<br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br>`;
-
-});document.getElementById("tronc_supérieure").addEventListener("click",()=>{
+    Exercice.style.left="50%" // déplacer "Exercice" sur l'écrans
+    Bras.style.left="200%";Dos.style.left="200%";Jambe.style.left="200%";Abdos.style.left="200%"; // déplacer "Menu" en dehors de l'écrans
+    Exercice.innerHTML=`
     
-    document.getElementById("exercice").style.left="50%";document.getElementById("exercice").style.position="absolute";
-    document.getElementById("membres_supérieurs").style.left="500%";document.getElementById("membres_inférieurs").style.left="500%";
-    document.getElementById("tronc_antérieure").style.left="500%";document.getElementById("tronc_supérieure").style.left="500%";
-    document.getElementById("exercice").innerHTML=`<br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br>`;
+        <br><br><span id="exercice_titre" name="test">Avant-Bras</span><br>
+        <span id="exercie_exo">30 Répétition de 3 série</span><span id="exercice_pause"> Pause 15s</span><br><br>
+        <span id="exercie_nom">Contraction Poigné </span><a id="info" href="assets/ContractionPoigné.mp4">info</a><br>
+        <span id="exercie_nom">Curl inversé </span><a id="info" href="assets/ContractionPoigné.mp4">info</a><br>
+        <span id="exercie_nom">Curl Contraction poigné </span><a id="info" href="assets/ContractionPoigné.mp4">info</a><br>
+        <span id="exercie_nom">Curl poigné inversé  </span><a id="info" href="assets/ContractionPoigné.mp4">info</a><br><br>
+
+        <span id="exercice_titre" name="test">Bras</span><br><br>
+
+        <span id="exercice_titre">Epaule</span><br><br>
+
+        <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
+
+    `;
 
 });
 
-window.addEventListener("click",()=>{
-    document.body.children["exercice"].children["exercice_retour"].addEventListener("click",()=>{
+window.addEventListener("click",function () {
     
-        document.getElementById("exercice").style.left="500%";document.getElementById("exercice").style.position="fixed";
-        document.getElementById("membres_supérieurs").style.left="50%";document.getElementById("membres_inférieurs").style.left="50%";
-        document.getElementById("tronc_antérieure").style.left="50%";document.getElementById("tronc_supérieure").style.left="50%";
-        lieu = "menu"
+    const exercice_retour = document.body.children["exercice"].children["exercice_retour"];
+    
+    // clicker sur Bouton "bras" du Menu
+    exercice_retour.addEventListener("click",function () {
+
+        const Exercice = document.body.children["exercice"];
+        const Bras = document.body.children["Bras"];
+        const Jambe = document.body.children["Jambe"];
+        const Dos = document.body.children["Dos"];
+        const Abdos = document.body.children["Abdos"];
+    
+        Exercice.style.left="200%" // déplacer "Exercice" en dehors de l'écrans
+        Bras.style.left="50%";Dos.style.left="50%";Jambe.style.left="50%";Abdos.style.left="50%"; // déplacer "Menu" sur l'écrans
 
     });
 });
-setInterval(() => {
-    if (lieu == "membres_supérieurs") {
-        
-        if (document.body.clientWidth > document.body.clientHeight) {
-            
-            let exercice = document.body.children["exercice"];
-            exercice.style.fontSize=25*exercice.offsetWidth/1536+"px";
-            exercice.children[2].style.fontSize=37.5*exercice.offsetWidth/1536+"px";
-            exercice.children[18].style.fontSize=37.5*exercice.offsetWidth/1536+"px";
-            exercice.children[34].style.fontSize=37.5*exercice.offsetWidth/1536+"px";
-            exercice.children["exercice_retour"].style.fontSize=31.25*exercice.offsetWidth/1536+"px";
-            exercice.children["exercice_retour"].style.padding="2%";exercice.children["exercice_retour"].style.borderRadius="25px";
-            
-        }   
-        if (document.body.clientWidth < document.body.clientHeight) {
-            
-            let exercice = document.body.children["exercice"];
-            exercice.style.fontSize=100*exercice.offsetWidth/1536+"px";
-            exercice.children[2].style.fontSize=150*exercice.offsetWidth/1536+"px";
-            exercice.children[21].style.fontSize=150*exercice.offsetWidth/1536+"px";
-            exercice.children[40].style.fontSize=150*exercice.offsetWidth/1536+"px";
-            exercice.children["exercice_retour"].style.fontSize=125*exercice.offsetWidth/1536+"px";
-            exercice.children["exercice_retour"].style.padding="7%";exercice.children["exercice_retour"].style.borderRadius="15px";
-        }
-
-    }
-}, 1000);
