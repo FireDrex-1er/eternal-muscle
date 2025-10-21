@@ -51,13 +51,19 @@ document.body.children["Bras"].addEventListener("click",function () {
         <br><br><span id="exercie_exo">20-30 Répétition de 3 série</span> <a id="exercice_pause"> Pause 15s</a><br><br>
 
         <span id="exercice_titre">Jambe</span><br><br>
-        <span id="exercie_nom">...  </span>    <a id="info" href="">info</a><br><br>
-
+        <span id="exercie_nom">soulevé de terre à jambes raides </span>    <a id="info" href="https://www.youtube.com/watch?v=0TbVsi7W6Rk">info</a><br>
+        <span id="exercie_nom">squats bulgares fractionnés </span>    <a id="info" href="https://www.youtube.com/shorts/A9OxBT-6Mw0  ">info</a><br>
+        <span id="exercie_nom">soulevé de pieds canard 2s</span>    <a id="info" href="https://www.youtube.com/watch?v=w5cgJwo5xuk  ">info</a><br><br>
+        
         <span id="exercice_titre">Cuisse</span><br><br>
-        <span id="exercie_nom">... </span>     <a id="info" href="">info</a><br><br>
+        <span id="exercie_nom">fente monté de genou </span>     <a id="info" href="https://www.youtube.com/watch?v=6XCxYIC_Mc0">info</a><br>
+        <span id="exercie_nom">squat summo </span>     <a id="info" href="https://www.youtube.com/watch?v=8ghtQpeWov8">info</a><br>
+        <span id="exercie_nom">chaise </span>     <a id="info" href="https://www.youtube.com/watch?v=8ghtQpeWov8">info</a><br><br>
 
         <span id="exercice_titre">Fessier</span><br><br>
-        <span id="exercie_nom">... </span>     <a id="info" href="">info</a>
+        <span id="exercie_nom">fente marché </span>     <a id="info" href="https://www.youtube.com/shorts/BhUpWmlKcJ8">info</a><br>
+        <span id="exercie_nom">soulevé de terre summo </span>     <a id="info" href="https://www.youtube.com/watch?v=oDvnFp3L9nk">info</a><br>
+        <span id="exercie_nom">fente arrière décalé sur côté </span>     <a id="info" href="https://www.youtube.com/watch?v=oDvnFp3L9nk">info</a>
 
         <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
 

@@ -18,6 +18,7 @@ body{
     cursor: pointer;
     color: #ddd;
     background-color: #303030;
+    box-shadow: 0px 0px 20px #a00,0px 0px 20px #000;
     padding: 1.5%;
     text-align: center;
     border-radius: 10px;
