@@ -1,91 +1,135 @@
 
-// clicker sur Bouton "bras" du Menu
-document.body.children["Bras"].addEventListener("click",function () {
-   
-    const Exercice = document.body.children["exercice"];
-    const Bras = document.body.children["Bras"];
-    const Jambe = document.body.children["Jambe"];
-    const Dos = document.body.children["Dos"];
-    const Abdos = document.body.children["Abdos"];
+if (document.body.clientWidth*1.3 < document.body.clientHeight) {
+    document.body.children["Menu"].children["Block_Endurance"].style.boxShadow="0px 10px 20px -5px #900";
+    document.body.children["Menu"].children["Block_Force"].style.boxShadow="-10px 10px 20px -5px #900";
+    document.body.children["Menu"].children["Block_Puissance"].style.boxShadow="10px 10px 20px -5px #900";
+    document.body.children["Menu"].children["Block_Hypertrophie"].style.boxShadow="0px -10px 20px -5px #900";
+    document.body.children["Menu"].style.fontSize="20px";
+    document.body.children["Exercice"].style.fontSize="20px";
+    document.body.children["Fleche_retour"].style.fontSize="50px";
 
-    Exercice.style.left="50%" // déplacer "Exercice" sur l'écrans
-    Bras.style.left="200%";Dos.style.left="200%";Jambe.style.left="200%";Abdos.style.left="200%"; // déplacer "Menu" en dehors de l'écrans
-    Exercice.innerHTML=`
+}if (document.body.clientWidth*1.3 > document.body.clientHeight){
     
-        <br><br><span id="exercie_exo">20-30 Répétition de 3 série</span> <a id="exercice_pause"> Pause 15s</a><br><br>
+    document.body.children["Menu"].children["Block_Endurance"].style.boxShadow="0px 10px 20px #900";
+    document.body.children["Menu"].children["Block_Force"].style.boxShadow="-10px 10px 20px #900";
+    document.body.children["Menu"].children["Block_Puissance"].style.boxShadow="10px 10px 20px #900";
+    document.body.children["Menu"].children["Block_Hypertrophie"].style.boxShadow="0px -10px 20px #900";
+    document.body.children["Menu"].style.fontSize="40px";
+    document.body.children["Exercice"].style.fontSize="40px";
+    document.body.children["Fleche_retour"].style.fontSize="100px";
 
-        <span id="exercice_titre">Avant-Bras</span><br><br>
-        <span id="exercie_nom">Contraction Poigné </span>      <a id="info" href="assets/ContractionPoigné.mp4">info</a><br>
-        <span id="exercie_nom">Curl inversé </span>            <a id="info" href="https://www.youtube.com/watch?v=6GHFxkmFDk0">info</a><br>
-        <span id="exercie_nom">Curl Contraction poigné </span> <a id="info" href="https://www.youtube.com/watch?v=6GHFxkmFDk0">info</a><br>
-        <span id="exercie_nom">Curl poigné inversé  </span>    <a id="info" href="https://www.youtube.com/watch?v=6GHFxkmFDk0">info</a><br><br>
-
-        <span id="exercice_titre">Bras</span><br><br>
-        <span id="exercie_nom">Curl inversé block alterné </span>  <a id="info" href="https://www.youtube.com/watch?v=Br0PN91sHu0&t=223s">info</a><br>
-        <span id="exercie_nom">Curl pupitre</span>                 <a id="info" href="https://www.youtube.com/watch?v=GNO4OtYoCYk">info</a><br>
-        <span id="exercie_nom">Scullcruncher</span>                 <a id="info" href="https://www.youtube.com/watch?v=OpRMRhr0Ycc&t=416s">info</a><br>
-        <span id="exercie_nom">Arm Dumbbell Overhead Extension</span>                 <a id="info" href="https://www.youtube.com/watch?v=OpRMRhr0Ycc&t=386s">info</a><br><br>
-
-        <span id="exercice_titre">Epaule</span><br><br>
-        <span id="exercie_nom">Elévation latérales </span>         <a id="info" href="https://www.youtube.com/watch?v=KBuQUOn-oPo">info</a><br>
-        <span id="exercie_nom">Peck deck inversé </span>           <a id="info" href="https://www.youtube.com/watch?v=kfBYCQFVFBE">info</a><br>
-        <span id="exercie_nom">Dévelopé militaire assis </span>         <a id="info" href="https://www.youtube.com/watch?v=KBuQUOn-oPo">info</a><br>
-        <span id="exercie_nom">élévation unilatérales </span>    <a id="info" href="https://www.youtube.com/watch?v=APs7NHBS3a4">info</a>
-
-        <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
-
-    `;
-
-});document.body.children["Jambe"].addEventListener("click",function () {
-   
-    const Exercice = document.body.children["exercice"];
-    const Bras = document.body.children["Bras"];
-    const Jambe = document.body.children["Jambe"];
-    const Dos = document.body.children["Dos"];
-    const Abdos = document.body.children["Abdos"];
-
-    Exercice.style.left="50%" // déplacer "Exercice" sur l'écrans
-    Bras.style.left="200%";Dos.style.left="200%";Jambe.style.left="200%";Abdos.style.left="200%"; // déplacer "Menu" en dehors de l'écrans
-    Exercice.innerHTML=`
+}setInterval(() => {
     
-        <br><br><span id="exercie_exo">20-30 Répétition de 3 série</span> <a id="exercice_pause"> Pause 15s</a><br><br>
+    if (document.body.clientWidth*1.3 < document.body.clientHeight) {
 
-        <span id="exercice_titre">Jambe</span><br><br>
-        <span id="exercie_nom">soulevé de terre à jambes raides </span>    <a id="info" href="https://www.youtube.com/watch?v=0TbVsi7W6Rk">info</a><br>
-        <span id="exercie_nom">squats bulgares fractionnés </span>    <a id="info" href="https://www.youtube.com/shorts/A9OxBT-6Mw0  ">info</a><br>
-        <span id="exercie_nom">soulevé de pieds canard 2s</span>    <a id="info" href="https://www.youtube.com/watch?v=w5cgJwo5xuk  ">info</a><br><br>
+        document.body.children["Menu"].children["Block_Endurance"].style.boxShadow="0px 10px 20px -5px #900";
+        document.body.children["Menu"].children["Block_Force"].style.boxShadow="-10px 10px 20px -5px #900";
+        document.body.children["Menu"].children["Block_Puissance"].style.boxShadow="10px 10px 20px -5px #900";
+        document.body.children["Menu"].children["Block_Hypertrophie"].style.boxShadow="0px -10px 20px -5px #900";
+        document.body.children["Menu"].style.fontSize="20px";
+        document.body.children["Exercice"].style.fontSize="20px";
+        document.body.children["Fleche_retour"].style.fontSize="50px";
+
+    }if (document.body.clientWidth*1.3 > document.body.clientHeight){
+    
+        document.body.children["Menu"].children["Block_Endurance"].style.boxShadow="0px 10px 20px #900";
+        document.body.children["Menu"].children["Block_Force"].style.boxShadow="-10px 10px 20px #900";
+        document.body.children["Menu"].children["Block_Puissance"].style.boxShadow="10px 10px 20px #900";
+        document.body.children["Menu"].children["Block_Hypertrophie"].style.boxShadow="0px -10px 20px #900";
+        document.body.children["Menu"].style.fontSize="40px";
+        document.body.children["Exercice"].style.fontSize="40px";
+        document.body.children["Fleche_retour"].style.fontSize="100px";
         
-        <span id="exercice_titre">Cuisse</span><br><br>
-        <span id="exercie_nom">fente monté de genou </span>     <a id="info" href="https://www.youtube.com/watch?v=6XCxYIC_Mc0">info</a><br>
-        <span id="exercie_nom">squat summo </span>     <a id="info" href="https://www.youtube.com/watch?v=8ghtQpeWov8">info</a><br>
-        <span id="exercie_nom">chaise </span>     <a id="info" href="https://www.youtube.com/watch?v=8ghtQpeWov8">info</a><br><br>
+    }
+    
+}, 1000);
 
-        <span id="exercice_titre">Fessier</span><br><br>
-        <span id="exercie_nom">fente marché </span>     <a id="info" href="https://www.youtube.com/shorts/BhUpWmlKcJ8">info</a><br>
-        <span id="exercie_nom">soulevé de terre summo </span>     <a id="info" href="https://www.youtube.com/watch?v=oDvnFp3L9nk">info</a><br>
-        <span id="exercie_nom">fente arrière décalé sur côté </span>     <a id="info" href="https://www.youtube.com/watch?v=oDvnFp3L9nk">info</a>
-
-        <br><br><br><br><span id="exercice_retour">RETOUR</span><br><br><br><br>
-
+document.body.children["Menu"].children["Block_Endurance"].addEventListener("click",function () {
+    
+    document.body.children["Menu"].children["Block_Endurance"].style.left="500%";
+    document.body.children["Menu"].children["Block_Force"].style.left="500%";
+    document.body.children["Menu"].children["Block_Puissance"].style.left="500%";
+    document.body.children["Menu"].children["Block_Hypertrophie"].style.left="500%";
+    
+    document.body.children["Fleche_retour"].style.left="0%";
+    
+    document.body.children["Exercice"].style.position="absolute";
+    document.body.children["Exercice"].style.left="50%";
+    document.body.children["Exercice"].innerHTML=`
+                                                                                                            <br>
+    <span id="attention">⚠️attention⚠️</span>                                                              <br>
+                                                                                                            <br>
+    Répétitions : 20 à 30                                                                                   <br>
+    Charge : 40–60 % de votre charge maximale                                                               <br>
+    Repos : 30 à 60                                                                                         <br>
+                                                                                                            <br>
+    <span id="titre">Jambe</span>                                                                           <br>
+                                                                                                            <br>
+    soulevé de terre à jambes raides                                                                        <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    squats bulgares fractionnés                                                                             <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    soulevé de pieds canard 2s                                                                              <br>
+                                                                                                            <br>
+    <span id="titre">Cuisse</span>                                                                          <br>
+                                                                                                            <br>
+    fente monté de genou                                                                                    <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    squat summo                                                                                             <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    chaise                                                                                                  <br>
+                                                                                                            <br>
+    <span id="titre">Fessier</span>                                                                         <br>
+                                                                                                            <br>
+    fente marché                                                                                            <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    soulevé de terre summo                                                                                  <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    fente arrière décalé sur côté                                                                           <br>
+                                                                                                            <br>
+    <span id="titre">Avant-Bras</span>                                                                      <br>
+                                                                                                            <br>
+    Contraction Poigné                                                                                      <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Curl inversé                                                                                            <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Curl Contraction poigné                                                                                 <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Curl poigné inversé                                                                                     <br>
+                                                                                                            <br>
+    <span id="titre">Bras</span>                                                                            <br>
+                                                                                                            <br>
+    Curl inversé block alterné                                                                              <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Curl pupitre                                                                                            <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Scullcruncher                                                                                           <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Arm Dumbbell Overhead Extension                                                                         <br>
+                                                                                                            <br>
+    <span id="titre">Epaule</span>                                                                          <br>
+                                                                                                            <br>
+    Elévation latérales                                                                                     <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Peck deck inversé                                                                                       <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Dévelopé militaire assis                                                                                <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    élévation unilatérales                                                                                  <br>
+                                                                                                            
     `;
-
+    
 });
-
-window.addEventListener("click",function () {
+document.body.children["Fleche_retour"].addEventListener("click",function () {
     
-    const exercice_retour = document.body.children["exercice"].children["exercice_retour"];
+    document.body.children["Menu"].children["Block_Endurance"].style.left="50%";
+    document.body.children["Menu"].children["Block_Force"].style.left="25%";
+    document.body.children["Menu"].children["Block_Puissance"].style.left="75%";
+    document.body.children["Menu"].children["Block_Hypertrophie"].style.left="50%";
     
-    // clicker sur Bouton "bras" du Menu
-    exercice_retour.addEventListener("click",function () {
-
-        const Exercice = document.body.children["exercice"];
-        const Bras = document.body.children["Bras"];
-        const Jambe = document.body.children["Jambe"];
-        const Dos = document.body.children["Dos"];
-        const Abdos = document.body.children["Abdos"];
+    document.body.children["Fleche_retour"].style.left="-100%";
     
-        Exercice.style.left="200%" // déplacer "Exercice" en dehors de l'écrans
-        Bras.style.left="50%";Dos.style.left="50%";Jambe.style.left="50%";Abdos.style.left="50%"; // déplacer "Menu" sur l'écrans
-
-    });
+    document.body.children["Exercice"].style.position="fixed";
+    document.body.children["Exercice"].style.left="500%";
+    
 });
