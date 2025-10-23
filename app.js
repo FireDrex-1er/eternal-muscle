@@ -59,33 +59,29 @@ document.body.children["Menu"].children["Block_Endurance"].addEventListener("cli
                                                                                                             <br>
     <span id="attention">⚠️attention⚠️</span>                                                              <br>
                                                                                                             <br>
-    Répétitions : 20 à 30                                                                                   <br>
-    Charge : 40–60 % de votre charge maximale                                                               <br>
-    Repos : 30 à 60                                                                                         <br>
+    <span id="attention">Répétitions : 20 à 30</span>                                                       <br>
+    <span id="attention">Série : 2 ou 3</span>                                                              <br>
+    <span id="attention">Charge : 40–60 % charge maximale</span>                                            <br>
+    <span id="attention">Repos : 30 à 60s</span>                                                             <br>
                                                                                                             <br>
     <span id="titre">Jambe</span>                                                                           <br>
                                                                                                             <br>
-    soulevé de terre à jambes raides                                                                        <br>
+    soulevé de pieds canard s2                                                                              <br>
+    soulevé de pieds Flaman                                                                                 <br>
     <span id="ligne">------------</span>                                                                    <br>
-    squats bulgares fractionnés                                                                             <br>
+    soulevé de pieds devans                                                                                 <br>
     <span id="ligne">------------</span>                                                                    <br>
-    soulevé de pieds canard 2s                                                                              <br>
-                                                                                                            <br>
-    <span id="titre">Cuisse</span>                                                                          <br>
-                                                                                                            <br>
-    fente monté de genou                                                                                    <br>
+    Le good morning                                                                                         <br>
+    Le good morning canard s2                                                                               <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Les fentes bulgares                                                                                     <br>
     <span id="ligne">------------</span>                                                                    <br>
     squat summo                                                                                             <br>
+    squat summo canard s2                                                                                   <br>
     <span id="ligne">------------</span>                                                                    <br>
-    chaise                                                                                                  <br>
-                                                                                                            <br>
-    <span id="titre">Fessier</span>                                                                         <br>
-                                                                                                            <br>
-    fente marché                                                                                            <br>
-    <span id="ligne">------------</span>                                                                    <br>
-    soulevé de terre summo                                                                                  <br>
-    <span id="ligne">------------</span>                                                                    <br>
-    fente arrière décalé sur côté                                                                           <br>
+    donkey kick                                                                                             <br>
+    fire hydrant                                                                                            <br>
+    L’extension de la hanche au sol                                                                         <br>
                                                                                                             <br>
     <span id="titre">Avant-Bras</span>                                                                      <br>
                                                                                                             <br>
@@ -109,13 +105,35 @@ document.body.children["Menu"].children["Block_Endurance"].addEventListener("cli
                                                                                                             <br>
     <span id="titre">Epaule</span>                                                                          <br>
                                                                                                             <br>
-    Elévation latérales                                                                                     <br>
+    rotation latérale avans-bras                                                                            <br>
+    L-Flies avec haltère                                                                                    <br>
     <span id="ligne">------------</span>                                                                    <br>
-    Peck deck inversé                                                                                       <br>
+    élévation latérale avec haltères                                                                        <br>
     <span id="ligne">------------</span>                                                                    <br>
-    Dévelopé militaire assis                                                                                <br>
+    élévation frontale avec haltères                                                                        <br>
     <span id="ligne">------------</span>                                                                    <br>
-    élévation unilatérales                                                                                  <br>
+    l'oiseau assis                                                                                          <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Élévation latérale inclinée                                                                             <br>
+                                                                                                            <br>
+    <span id="titre">DOS</span>                                                                             <br>
+                                                                                                            <br>
+    Rowing buste penché                                                                                     <br>
+    Shrug unilatéral                                                                                        <br>
+    Elevation y unilatéral                                                                                  <br>
+    Marche du fermier                                                                                       <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    <a href="https://www.youtube.com/watch?v=98i1ILByo3s">info</a>                                          <br>
+    Tirage horizontal unilatéral                                                                            <br>
+    Tirage verticale prise neutre                                                                           <br>
+    Tirage verticale unilatéral                                                                             <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Pompe debous écarté séré                                                                             <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    <a href="https://www.louischartier.com/post/les-meilleurs-exercices-de-rhombo%C3%AFdes-pour-obtenir-un-dos-cisel%C3%A9">info</a>                                                                                      <br>
+    Rowing à angle élevé à un bras                                                                                          <br>
+    <span id="ligne">------------</span>                                                                    <br>
+    Dentelé postéro-inférieur                                                                               <br>
                                                                                                             
     `;
     
