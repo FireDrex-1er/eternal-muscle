@@ -116,7 +116,7 @@ document.body.children["Menu"].children["Block_Endurance"].addEventListener("cli
     <span id="ligne">------------</span>                                                                    <br>
     Élévation latérale inclinée                                                                             <br>
                                                                                                             <br>
-    <span id="titre">DOS</span>                                                                             <br>
+    <span id="titre">Dos</span>                                                                             <br>
                                                                                                             <br>
     Rowing buste penché                                                                                     <br>
     Shrug unilatéral                                                                                        <br>
@@ -128,12 +128,16 @@ document.body.children["Menu"].children["Block_Endurance"].addEventListener("cli
     Tirage verticale prise neutre                                                                           <br>
     Tirage verticale unilatéral                                                                             <br>
     <span id="ligne">------------</span>                                                                    <br>
-    Pompe debous écarté séré                                                                             <br>
+    Pompe debous écarté séré                                                                                <br>
     <span id="ligne">------------</span>                                                                    <br>
-    <a href="https://www.louischartier.com/post/les-meilleurs-exercices-de-rhombo%C3%AFdes-pour-obtenir-un-dos-cisel%C3%A9">info</a>                                                                                      <br>
-    Rowing à angle élevé à un bras                                                                                          <br>
+    <a href="https://www.louischartier.com/post/les-meilleurs-exercices-de-rhombo%C3%AFdes-pour-obtenir-un-dos-cisel%C3%A9">info</a><br>                                                                                      <br>
+    Rowing à angle élevé à un bras                                                                          <br>
     <span id="ligne">------------</span>                                                                    <br>
     Dentelé postéro-inférieur                                                                               <br>
+                                                                                                            <br>
+    <span id="titre">Abdominaux</span>                                                                      <br>
+                                                                                                            <br>
+    <a href="https://www.youtube.com/watch?v=y6x6dvXfyoo">info</a>                                          <br>
                                                                                                             
     `;
     
