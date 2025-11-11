@@ -17,16 +17,19 @@ body #menu{
     top: 150px;
 }#menu #Extention_lombaires_sur_chaise{
     top: 280px;
+}#menu #Mur_Rhomboid_Squeeze_Isométrique{
+    top: 410px;
 }
 #menu div .note{
     cursor:auto;
     position: fixed;
-    top: 0%;
-    left: 0%;
+    top: 5%;
+    left: 0.5%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: linear-gradient(#f60,orange);
     border-radius: 50%;
-    padding: 1% 0.5% 1% 0.5%;
+    padding: 1.25%;
+    font-size: 20px;
 }#menu div .cible{
     cursor:auto;
     position: fixed;

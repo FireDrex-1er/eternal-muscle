@@ -11,6 +11,7 @@
         <div id="Pullover_sur_chaise"><span class="note">94%</span><span class="titre">Pullover sur chaise</span> <span class="cible">Dorsaux</span></div>
         <div id="Shrugs_au_mur_avec_pause"><span class="note">94%</span><span class="titre">Shrugs au mur avec pause</span><span class="cible">trapèzes supérieurs</span></div>
         <div id="Extention_lombaires_sur_chaise"><span class="note">92%</span><span class="titre">Extention lombaires sur chaise</span><span class="cible">Lombaire</span></div>
+        <div id="Mur_Rhomboid_Squeeze_Isométrique"><span class="note">97%</span><span class="titre">Mur Rhomboid Squeeze Isométrique</span><span class="cible">Rhomboid</span></div>
     </div>
     <div id="info">
         
@@ -90,6 +91,38 @@
                 <br><br><hr><br>4 Montée contrôlée (3s) : Contractez vos lombaires pour relever le buste. Remontez jusqu'à l'alignement horizontal (pas plus haut = dangereux). Dos se cambre progressivement. Mouvement LENT et CONTRÔLÉ. Pensez "soulever avec le bas du dos".
                 <br><br><hr><br>5 Contraction (2s) : À l'horizontale, SERREZ vos lombaires pendant 2 secondes. Contractez les fessiers aussi pour protéger le dos. Ne montez PAS au-delà de l'horizontal (hyper-extension = risque blessure).
                 <br><br><hr><br>6 Descente (3-4s) : Redescendez TRÈS lentement. Résistez à la gravité. Contrôlez chaque centimètre. Revenez à la position d'étirement complet. La descente est aussi importante que la montée.<br><br>
+            `;
+            setTimeout(() => {
+                
+                document.getElementById("menu").style.position="fixed";
+                document.getElementById("menu").style.left="500%";
+                document.getElementById("menu").style.filter="opacity(0)";
+                document.getElementById("menu").style.animation="";
+                document.getElementById("info").style.position="absolute";
+                document.getElementById("info").style.left="50%";
+                document.getElementById("info").style.filter="";
+                document.getElementById("info").style.animation="menu_inverse 1.5";
+
+            }, 1500);
+            setTimeout(() => {
+                document.getElementById("info").style.animation="";
+
+            }, 3000);
+
+        });
+        document.getElementById("Mur_Rhomboid_Squeeze_Isométrique").addEventListener("click",()=>{
+
+            document.getElementById("menu").style.animation="menu 1.5s";
+            document.getElementById("info").style.filter="opacity(0)";
+            document.getElementById("info").innerHTML=`
+
+                <br>1 Tiens-toi debout, dos collé au mur, pieds à 20 cm du mur.Bras le long du corps, coudes légèrement pliés, paumes tournées vers l’avant.
+                <br><br><hr><br>2 Rentre légèrement le menton, colle la tête, le dos et les fesses contre le mur.Le bas du dos reste légèrement creusé (naturel).
+                <br><br><hr><br>3 Inspire, descends légèrement les épaules (pas haussées !), puis prépare-toi à tirer les omoplates vers le centre.
+                <br><br><hr><br>4 Tire lentement tes omoplates l’une vers l’autre et vers le bas — sans bouger les bras.Sens la zone entre les omoplates se contracter à fond.Imagine que tu veux écraser une balle entre elles.
+                <br><br><hr><br>5 Tiens cette contraction 10 à 20 secondes.Respire lentement tout en gardant la tension dans le milieu du dos.(C’est là que la brûlure arrive 🔥)
+                <br><br><hr><br>6 Relâche doucement sur 3 secondes sans décoller le dos du mur.Repose 20 secondes, puis recommence.<br><br>
+                
             `;
             setTimeout(() => {
                 
