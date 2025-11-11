@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <div id="Pullover_sur_chaise"><span class="note">94%</span><span class="titre">Pullover sur chaise</span> <span class="cible">Dorsaux</span></div>
+        <div id="Shrugs_au_mur_avec_pause"><span class="note">94%</span><span class="titre">Shrugs au mur avec pause</span><span class="cible">trapèzes supérieurs</span></div>
+        <div id="Extention_lombaires_sur_chaise"><span class="note">92%</span><span class="titre">Extention lombaires sur chaise</span><span class="cible">Lombaire</span></div>
+    </div>
+    <div id="info">
+        
+    </div>
+    <script>
+        
+        document.getElementById("Pullover_sur_chaise").addEventListener("click",()=>{
 
+            document.getElementById("menu").style.animation="menu 1.5s";
+            document.getElementById("info").style.filter="opacity(0)";
+            document.getElementById("info").innerHTML=`
+                <br>1 Position chaise : Placez la chaise stable contre le mur. Posez le tapis devant pour vos pieds.
+                <br><br><hr><br>2 Position corps : Allongez-vous PERPENDICULAIREMENT à la chaise. Seul le haut du dos (omoplates) repose sur l'assise. Hanches en l'air, genoux à 90°, pieds écartés largeur épaules au sol.
+                <br><br><hr><br>3 Position haltère : Prenez UN SEUL haltère de 24kg. Tenez-le à deux mains au-dessus de votre poitrine, bras tendus (coudes légèrement fléchis 10°). Paumes contre l'intérieur d'une tête de l'haltère.
+                <br><br><hr><br>4 Phase d'étirement (3s) : Descendez l'haltère en arc de cercle DERRIÈRE votre tête. Gardez les bras presque tendus. Descendez jusqu'à sentir un étirement INTENSE dans les dorsaux (cage thoracique s'ouvre). NE cambrez PAS le dos.
+                <br><br><hr><br>5 Position basse critique : En bas, l'haltère est au niveau de vos oreilles ou plus bas. Vous devez sentir vos dorsaux s'étirer comme un élastique. C'est LÀ que l'isolation est maximale. Pause 1 seconde.
+                <br><br><hr><br>6 Contraction dorsaux (2s) : Remontez l'haltère en contractant UNIQUEMENT vos dorsaux. Imaginez que vous rapprochez vos coudes vers vos hanches. Les bras restent tendus, ce sont les DORSAUX qui tirent, pas les bras !
+                <br><br><hr><br>7 Position haute : Remontez jusqu'à avoir l'haltère au-dessus de votre poitrine (pas plus). Contractez les dorsaux 1 seconde. Ne bloquez pas les coudes.
+                <br><br><hr><br>8 Stabilité hanches : CRUCIAL : Gardez les hanches hautes et stables durant TOUT le mouvement. Si elles descendent, vous perdez l'isolation. Contractez les fessiers.<br><br>
+            `;
+            setTimeout(() => {
+                
+                document.getElementById("menu").style.position="fixed";
+                document.getElementById("menu").style.left="500%";
+                document.getElementById("menu").style.filter="opacity(0)";
+                document.getElementById("menu").style.animation="";
+                document.getElementById("info").style.position="absolute";
+                document.getElementById("info").style.left="50%";
+                document.getElementById("info").style.filter="";
+                document.getElementById("info").style.animation="menu_inverse 1.5";
+
+            }, 1500);
+            setTimeout(() => {
+                document.getElementById("info").style.animation="";
+
+            }, 3000);
+
+        });
+        document.getElementById("Shrugs_au_mur_avec_pause").addEventListener("click",()=>{
+
+            document.getElementById("menu").style.animation="menu 1.5s";
+            document.getElementById("info").style.filter="opacity(0)";
+            document.getElementById("info").innerHTML=`
+                <br>1 Position initiale : Dos complètement collé au mur (talons, fesses, omoplates, tête). Pieds écartés largeur d'épaules, à 5-10cm du mur. Haltères le long du corps, bras tendus, paumes vers les cuisses.
+                <br><br><hr><br>2 Stabilisation : Contractez abdos et fessiers. Pressez tout votre dos contre le mur. Cette pression constante verrouille votre position et isole les trapèzes à 100%. Ne décollezjamais du mur.
+                <br><br><hr><br>3 Montée explosive (1s) : Haussez les épaules DIRECTEMENT vers les oreilles (pas en avant, pas en rotation). Imaginez que vous essayez de toucher vos oreilles avec vos épaules. Montée rapide et puissante. Bras restent tendus.
+                <br><br><hr><br>4 Contraction MAXIMALE (3-4s) : Au sommet, SERREZ vos trapèzes comme si votre vie en dépendait. Maintenez épaules le plus haut possible. Cette pause isométrique est ce qui fait toute la différence. Respirez normalement, ne bloquez pas.
+                <br><br><hr><br>5 Descente ultra-lente (4s) : Relâchez TRÈS lentement. Résistez à la gravité. Sentez chaque millimètre de la descente. Le mur vous empêche de tricher avec un rebond. Descendez jusqu'à l'étirement complet (épaules basses).
+                <br><br><hr><br>6 Étirement actif (1s) : En bas, laissez les épaules s'étirer vers le bas pendant 1 seconde. Puis recommencez immédiatement sans pause. Pas de momentum, chaque rep part de zéro.<br><br>
+            `;
+            setTimeout(() => {
+                
+                document.getElementById("menu").style.position="fixed";
+                document.getElementById("menu").style.left="500%";
+                document.getElementById("menu").style.filter="opacity(0)";
+                document.getElementById("menu").style.animation="";
+                document.getElementById("info").style.position="absolute";
+                document.getElementById("info").style.left="50%";
+                document.getElementById("info").style.filter="";
+                document.getElementById("info").style.animation="menu_inverse 1.5";
+
+            }, 1500);
+            setTimeout(() => {
+                document.getElementById("info").style.animation="";
+
+            }, 3000);
+
+        });
+        document.getElementById("Extention_lombaires_sur_chaise").addEventListener("click",()=>{
+
+            document.getElementById("menu").style.animation="menu 1.5s";
+            document.getElementById("info").style.filter="opacity(0)";
+            document.getElementById("info").innerHTML=`
+                <br>1 Installation : Placez la chaise stable contre un mur. Allongez-vous ventre sur l'assise de la chaise. Bassin et hanches sur le bord de l'assise. Jambes tendues derrière, pieds accrochés sous/derrière le dossier pour vous stabiliser.
+                <br><br><hr><br>2 Position bras : 1 haltère serré contre votre poitrine (comme un câlin). Bras croisés autour de l'haltère. Commencez léger : 6-8 kg MAX pour débuter. La position amplifie énormément la difficulté.
+                <br><br><hr><br>3 Position départ : Buste pendu vers le bas (angle 90° ou moins). Dos arrondi naturellement. Abdos relâchés. C'est la position d'étirement complet. Laissez la gravité étirer vos lombaires 1-2 secondes.
+                <br><br><hr><br>4 Montée contrôlée (3s) : Contractez vos lombaires pour relever le buste. Remontez jusqu'à l'alignement horizontal (pas plus haut = dangereux). Dos se cambre progressivement. Mouvement LENT et CONTRÔLÉ. Pensez "soulever avec le bas du dos".
+                <br><br><hr><br>5 Contraction (2s) : À l'horizontale, SERREZ vos lombaires pendant 2 secondes. Contractez les fessiers aussi pour protéger le dos. Ne montez PAS au-delà de l'horizontal (hyper-extension = risque blessure).
+                <br><br><hr><br>6 Descente (3-4s) : Redescendez TRÈS lentement. Résistez à la gravité. Contrôlez chaque centimètre. Revenez à la position d'étirement complet. La descente est aussi importante que la montée.<br><br>
+            `;
+            setTimeout(() => {
+                
+                document.getElementById("menu").style.position="fixed";
+                document.getElementById("menu").style.left="500%";
+                document.getElementById("menu").style.filter="opacity(0)";
+                document.getElementById("menu").style.animation="";
+                document.getElementById("info").style.position="absolute";
+                document.getElementById("info").style.left="50%";
+                document.getElementById("info").style.filter="";
+                document.getElementById("info").style.animation="menu_inverse 1.5";
+
+            }, 1500);
+            setTimeout(() => {
+                document.getElementById("info").style.animation="";
+
+            }, 3000);
+
+        });
+    
+    </script>
+</body>
+</html>
