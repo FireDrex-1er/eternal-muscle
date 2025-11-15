@@ -11,16 +11,14 @@ body #menu{
     border-radius: 10px;
     z-index: 1;
 
-}#menu #good_morning_Rotflex{
+}#menu #curl_s30{
     top: 20px;
-}#menu #tirage_frontal_s3{
+}#menu #haltères_aux_frontS30{
     top: 150px;
-}#menu #Extention_lombaires_sur_chaise{
+}#menu #Élévations_latfront_s2{
     top: 280px;
-}#menu #Mur_Rhomboid_Squeeze_Isométrique{
-    top: 410px;
 }#menu #retour{
-    top: 540px;
+    top: 410px;
 }
 #menu div .cible{
     cursor:auto;
