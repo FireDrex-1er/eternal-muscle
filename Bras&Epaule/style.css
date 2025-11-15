@@ -1,0 +1,124 @@
+body{
+    background-color: #1f105f;
+}
+body #menu{
+
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 50%;
+    border-radius: 10px;
+    z-index: 1;
+
+}#menu #good_morning_Rotflex{
+    top: 20px;
+}#menu #tirage_frontal_s3{
+    top: 150px;
+}#menu #Extention_lombaires_sur_chaise{
+    top: 280px;
+}#menu #Mur_Rhomboid_Squeeze_Isométrique{
+    top: 410px;
+}#menu #retour{
+    top: 540px;
+}
+#menu div .cible{
+    cursor:auto;
+    position: fixed;
+    top: 50%;
+    left: 100%;
+    transform: translate(0%,-50%);
+    background-color: #6e1e1e;
+    padding: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: max-content;
+    border: 2px solid #ffee007a;
+    z-index: 1;
+    border: inherit;
+
+}#menu div{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 100px;
+    width: 100%;
+    background-color: #2d1e6e;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #ddd;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+    border: 2px solid #ffee007a;
+}#menu div:hover{
+    border: 2px solid #ffee00;
+    box-shadow: 0 10px 30px #ffc1074d;
+}#menu div .titre{
+    height: 100%;
+    left: 65px;
+    top: 0%;
+    text-align: center;
+    align-content: center;
+    color: orange;
+    width:max-content;
+
+}#menu a{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 100px;
+    width: 30%;
+    background-color: #6e1e1e;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #ddd;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+    border: 2px solid #ff00007a;
+    text-decoration: none;
+}#menu a:hover{
+    border: 2px solid #ff0000;
+    box-shadow: 0 10px 30px #ff07074d;
+}
+@keyframes menu{
+    0%{
+        filter: opacity(1);
+    }
+    100%{
+        filter: opacity(0);
+    }
+}@keyframes menu_inverse{
+    0%{
+        filter: opacity(0);
+    }
+    100%{
+        filter: opacity(1);
+    }
+}
+body #info{
+
+    position: fixed;
+    top: 2%;
+    left: 500%;
+    transform: translate(-50%);
+    width: 50%;
+    border-radius: 10px;
+    z-index: 0;
+    background-color: #353b86;
+    border:2px solid #00eeff6b;
+    text-align: center;
+    align-content: center;
+    padding: 1%;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ddd;
+
+}
