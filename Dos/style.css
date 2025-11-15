@@ -11,26 +11,18 @@ body #menu{
     border-radius: 10px;
     z-index: 1;
 
-}#menu #Pullover_sur_chaise{
+}#menu #good_morning_Rotflex{
     top: 20px;
-}#menu #Shrugs_au_mur_avec_pause{
+}#menu #tirage_frontal_s3{
     top: 150px;
 }#menu #Extention_lombaires_sur_chaise{
     top: 280px;
 }#menu #Mur_Rhomboid_Squeeze_Isométrique{
     top: 410px;
+}#menu #retour{
+    top: 540px;
 }
-#menu div .note{
-    cursor:auto;
-    position: fixed;
-    top: 5%;
-    left: 0.5%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background: linear-gradient(#f60,orange);
-    border-radius: 50%;
-    padding: 1.25%;
-    font-size: 20px;
-}#menu div .cible{
+#menu div .cible{
     cursor:auto;
     position: fixed;
     top: 50%;
@@ -74,6 +66,27 @@ body #menu{
     color: orange;
     width:max-content;
 
+}#menu a{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    height: 100px;
+    width: 30%;
+    background-color: #6e1e1e;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #ddd;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 10px;
+    border: 2px solid #ff00007a;
+    text-decoration: none;
+}#menu a:hover{
+    border: 2px solid #ff0000;
+    box-shadow: 0 10px 30px #ff07074d;
 }
 @keyframes menu{
     0%{

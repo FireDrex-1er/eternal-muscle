@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>exercice dos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="menu">
-        <div id="Pullover_sur_chaise"><span class="note">94%</span><span class="titre">Pullover sur chaise</span> <span class="cible">Dorsaux</span></div>
-        <div id="Shrugs_au_mur_avec_pause"><span class="note">94%</span><span class="titre">Shrugs au mur avec pause</span><span class="cible">trapèzes supérieurs</span></div>
-        <div id="Extention_lombaires_sur_chaise"><span class="note">92%</span><span class="titre">Extention lombaires sur chaise</span><span class="cible">Lombaire</span></div>
-        <div id="Mur_Rhomboid_Squeeze_Isométrique"><span class="note">97%</span><span class="titre">Mur Rhomboid Squeeze Isométrique</span><span class="cible">Rhomboid</span></div>
+        <div id="good_morning_Rotflex"><span class="titre">good morning Rotflex</span> <span class="cible">Dorsaux</span></div>
+        <div id="tirage_frontal_s3"><span class="titre">tirage frontal s3</span><span class="cible">Trapèzes</span></div>
+        <div id="Extention_lombaires_sur_chaise"><span class="titre"></span><span class="cible">Lombaire</span></div>
+        <div id="Mur_Rhomboid_Squeeze_Isométrique"><span class="titre"></span><span class="cible">Rhomboid</span></div>
+        <a href="../index.html" id="retour"><span class="titre">retour</span></a>
     </div>
     <div id="info">
         
     </div>
     <script>
         
-        document.getElementById("Pullover_sur_chaise").addEventListener("click",()=>{
+        document.getElementById("good_morning_Rotflex").addEventListener("click",()=>{
 
             document.getElementById("menu").style.animation="menu 1.5s";
             document.getElementById("info").style.filter="opacity(0)";
             document.getElementById("info").innerHTML=`
                 <br>1 Position chaise : Placez la chaise stable contre le mur. Posez le tapis devant pour vos pieds.
-                <br><br><hr><br>2 Position corps : Allongez-vous PERPENDICULAIREMENT à la chaise. Seul le haut du dos (omoplates) repose sur l'assise. Hanches en l'air, genoux à 90°, pieds écartés largeur épaules au sol.
-                <br><br><hr><br>3 Position haltère : Prenez UN SEUL haltère de 24kg. Tenez-le à deux mains au-dessus de votre poitrine, bras tendus (coudes légèrement fléchis 10°). Paumes contre l'intérieur d'une tête de l'haltère.
-                <br><br><hr><br>4 Phase d'étirement (3s) : Descendez l'haltère en arc de cercle DERRIÈRE votre tête. Gardez les bras presque tendus. Descendez jusqu'à sentir un étirement INTENSE dans les dorsaux (cage thoracique s'ouvre). NE cambrez PAS le dos.
-                <br><br><hr><br>5 Position basse critique : En bas, l'haltère est au niveau de vos oreilles ou plus bas. Vous devez sentir vos dorsaux s'étirer comme un élastique. C'est LÀ que l'isolation est maximale. Pause 1 seconde.
-                <br><br><hr><br>6 Contraction dorsaux (2s) : Remontez l'haltère en contractant UNIQUEMENT vos dorsaux. Imaginez que vous rapprochez vos coudes vers vos hanches. Les bras restent tendus, ce sont les DORSAUX qui tirent, pas les bras !
-                <br><br><hr><br>7 Position haute : Remontez jusqu'à avoir l'haltère au-dessus de votre poitrine (pas plus). Contractez les dorsaux 1 seconde. Ne bloquez pas les coudes.
-                <br><br><hr><br>8 Stabilité hanches : CRUCIAL : Gardez les hanches hautes et stables durant TOUT le mouvement. Si elles descendent, vous perdez l'isolation. Contractez les fessiers.<br><br>
+                <br><br><hr><br>2 Position corps : debout, bras vers le sol et entre croisé.
+                <br><br><hr><br>3 Position haltère : Prenez deux haltères de "4kg". Tenez-le au-dessus de votre jambe, bras tendus (coudes fléchis 0°). Paumes vers la jambe.
+                <br><br><hr><br>4 Phase d'étirement (3s) : Descendez la tête et le haut du dos,fait une rotation de 45° du dos. Descendez jusqu'à sentir un étirement INTENSE dans les dorsaux.
+                <br><br><hr><br>5 Position basse critique : En bas, vous devez sentir vos dorsaux s'étirer comme un élastique. C'est LÀ que l'isolation est maximale. Pause 1 seconde.
+                <br><br><hr><br>6 Contraction dorsaux (2s) : Remontez la tête et le haut du dos en contractant UNIQUEMENT vos dorsaux. Les bras restent tendus, ce sont les DORSAUX qui tirent, pas les bras !
+                <br><br><hr><br>7 Muscle ciblé : tout les muscle du dorsaux, car on a une flexion du dos et une rotation<br><br>
             `;
             setTimeout(() => {
                 
@@ -50,17 +50,16 @@
             }, 3000);
 
         });
-        document.getElementById("Shrugs_au_mur_avec_pause").addEventListener("click",()=>{
+        document.getElementById("tirage_frontal_s3").addEventListener("click",()=>{
 
             document.getElementById("menu").style.animation="menu 1.5s";
             document.getElementById("info").style.filter="opacity(0)";
             document.getElementById("info").innerHTML=`
-                <br>1 Position initiale : Dos complètement collé au mur (talons, fesses, omoplates, tête). Pieds écartés largeur d'épaules, à 5-10cm du mur. Haltères le long du corps, bras tendus, paumes vers les cuisses.
-                <br><br><hr><br>2 Stabilisation : Contractez abdos et fessiers. Pressez tout votre dos contre le mur. Cette pression constante verrouille votre position et isole les trapèzes à 100%. Ne décollezjamais du mur.
-                <br><br><hr><br>3 Montée explosive (1s) : Haussez les épaules DIRECTEMENT vers les oreilles (pas en avant, pas en rotation). Imaginez que vous essayez de toucher vos oreilles avec vos épaules. Montée rapide et puissante. Bras restent tendus.
-                <br><br><hr><br>4 Contraction MAXIMALE (3-4s) : Au sommet, SERREZ vos trapèzes comme si votre vie en dépendait. Maintenez épaules le plus haut possible. Cette pause isométrique est ce qui fait toute la différence. Respirez normalement, ne bloquez pas.
-                <br><br><hr><br>5 Descente ultra-lente (4s) : Relâchez TRÈS lentement. Résistez à la gravité. Sentez chaque millimètre de la descente. Le mur vous empêche de tricher avec un rebond. Descendez jusqu'à l'étirement complet (épaules basses).
-                <br><br><hr><br>6 Étirement actif (1s) : En bas, laissez les épaules s'étirer vers le bas pendant 1 seconde. Puis recommencez immédiatement sans pause. Pas de momentum, chaque rep part de zéro.<br><br>
+                <br>1 Position initiale : debous. Pieds écartés largeur d'épaules. l'avans bras à 90° entre pieds et le ventre, bras écarter lageur d'épaule et tendus, paumes vers le sol.
+                <br><br><hr><br>3 Mouvement lentement (3s) : l'avant bras toujours à 90°, vas amener le coude derrière l'épaule le plus posssible, et reviens.
+                <br><br><hr><br>4 Contraction MAXIMALE (1s) : derrière l'épaule le plus posssible, SERREZ vos trapèzes comme si votre vie en dépendait.
+                <br><br><hr><br>5 spécial : Après 10 répétitions, l'avant-bras est à 45°, le coude derrière l'épaule en haut. Et après encore 10 répétitions, l'avant-bras passe à 135°, le coude derrière l'épaule en bas.
+                <br><br><hr><br>6 muscle ciblé : les trois grands groupes de trapèzes inférieurs, moyens et supérieurs.<br><br>
             `;
             setTimeout(() => {
                 
