@@ -20,6 +20,16 @@ body #menu{
 }#menu #Dos{
     top: 200px;
 }
+#menu #Os{
+    background-color: #dddb;
+    border: 2px solid #ffffff7a;
+    top: 350px;
+}#menu #Os:hover{
+    border: 2px solid #ffffff;
+    box-shadow: 0 10px 30px #fffcf54d;
+}#menu #Os .titre{
+    color: #000a;
+}
 #menu a .note{
     cursor:auto;
     position: fixed;
