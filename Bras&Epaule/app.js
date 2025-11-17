@@ -72,14 +72,56 @@ document.getElementById("curl_s30").addEventListener("click",()=>{
 });
 
 setInterval(() => {
-    if (document.body.clientHeight > document.body.clientWidth ) {
-        document.getElementById("curl_s30").style.fontSize="20px";
-        document.getElementById("haltères_aux_frontS30").style.fontSize="20px";
-        document.getElementById("Élévations_latfront_s2").style.fontSize="20px";
-    }
     if (document.body.clientHeight < document.body.clientWidth ) {
         document.getElementById("curl_s30").style.fontSize="30px";
         document.getElementById("haltères_aux_frontS30").style.fontSize="30px";
         document.getElementById("Élévations_latfront_s2").style.fontSize="30px";
     }
 }, 500);
+
+
+
+
+
+let titre_Width_0 = document.body.children["menu"].children[0].clientWidth;let titre_Width_1 = document.body.children["menu"].children[1].clientWidth;let titre_Width_2 = document.body.children["menu"].children[2].clientWidth;
+let cible_Width_0 = document.body.children["menu"].children[0].children[1].clientWidth;let cible_Width_1 = document.body.children["menu"].children[1].children[1].clientWidth;let cible_Width_2 = document.body.children["menu"].children[2].children[1].clientWidth;
+let body_Width = document.body.clientWidth
+
+setInterval(() => {
+    if (((body_Width-titre_Width_0)/2-cible_Width_0)-3 < 0) {
+        titre_Width_0 = titre_Width_0-1;
+        document.body.children["menu"].children[0].style.width=titre_Width_0+"px";
+
+    }
+    if (((body_Width-titre_Width_1)/2-cible_Width_1)-3 < 0) {
+        titre_Width_1 = titre_Width_1-1;
+        document.body.children["menu"].children[1].style.width=titre_Width_1+"px";
+
+    }
+    if (((body_Width-titre_Width_2)/2-cible_Width_2)-3 < 0) {
+        titre_Width_2 = titre_Width_2-1;
+        document.body.children["menu"].children[2].style.width=titre_Width_2+"px";
+
+    }
+}, 10);
+
+
+setTimeout(() => {
+    
+    if (document.body.clientHeight > document.body.clientWidth) {
+        
+        document.body.children["menu"].children[0].style.fontSize=(document.body.children["menu"].children[0].clientWidth*20)/189+"px"
+        console.log(document.body.children["menu"].children[0].style.fontSize);
+        
+        document.body.children["menu"].children[1].style.fontSize=(document.body.children["menu"].children[1].clientWidth*20)/189+"px"
+        console.log(document.body.children["menu"].children[1].style.fontSize);
+        
+        document.body.children["menu"].children[2].style.fontSize=(document.body.children["menu"].children[2].clientWidth*20)/189+"px"
+        console.log(document.body.children["menu"].children[2].style.fontSize);
+        
+        document.body.children["menu"].children[3].style.fontSize=(document.body.children["menu"].children[3].clientWidth*50)/189+"px"
+        console.log(document.body.children["menu"].children[3].style.fontSize);
+
+    }
+
+}, 1500);
