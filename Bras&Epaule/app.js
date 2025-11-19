@@ -9,6 +9,7 @@ document.getElementById("curl_s30").addEventListener("click",()=>{
     <br><br><hr><br>2 mouvement : faire une rotation du bras(ne boujer pas l'avant bras) vers l'avant bras et revien position initial.
     <br><br><hr><br>3 spécifisité : au boue de 10 mouvement change la prise de main en neutre et après 10 autre mouvement en supination.
     <br><br><hr><br>4 astuce : quand tu monte, plus tu le fait l'entement mieux sa travaille. contract le muscle.avans de redésendre le bras tien 1s et redésend.
+    <br><br><hr><br><video src="../assets/vidéo/curl s3.mp4" controls></video>
     <br><br><hr><br>5 muscle : en prise pronation = brachii short head, neutre = biceps antérieur, supination = brachii long head.<br><br>
     `;
     setTimeout(() => {
@@ -121,6 +122,9 @@ setTimeout(() => {
         
         document.body.children["menu"].children[3].style.fontSize=(document.body.children["menu"].children[3].clientWidth*50)/189+"px"
         console.log(document.body.children["menu"].children[3].style.fontSize);
+        
+        document.body.style.backgroundSize="160%";
+
 
     }
 
