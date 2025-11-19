@@ -139,6 +139,9 @@ setTimeout(() => {
         document.body.children["menu"].children[3].style.fontSize=(document.body.children["menu"].children[3].clientWidth*50)/189+"px"
         console.log(document.body.children["menu"].children[3].style.fontSize);
 
+        
+        document.body.style.backgroundSize="160%";
+
     }
 
 }, 1500);
