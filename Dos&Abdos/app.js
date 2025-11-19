@@ -146,19 +146,22 @@ setTimeout(() => {
     if (document.body.clientHeight > document.body.clientWidth) {
         
         document.body.children["menu"].children[0].style.fontSize=(document.body.children["menu"].children[0].clientWidth*20)/189+"px"
-        console.log(document.body.children["menu"].children[2].style.fontSize);
+        console.log(document.body.children["menu"].children[0].style.fontSize);
         
         document.body.children["menu"].children[1].style.fontSize=(document.body.children["menu"].children[1].clientWidth*20)/189+"px"
-        console.log(document.body.children["menu"].children[2].style.fontSize);
+        console.log(document.body.children["menu"].children[1].style.fontSize);
         
         document.body.children["menu"].children[2].style.fontSize=(document.body.children["menu"].children[2].clientWidth*20)/189+"px"
         console.log(document.body.children["menu"].children[2].style.fontSize);
         
         document.body.children["menu"].children[3].style.fontSize=(document.body.children["menu"].children[3].clientWidth*20)/189+"px"
-        console.log(document.body.children["menu"].children[2].style.fontSize);
+        console.log(document.body.children["menu"].children[3].style.fontSize);
         
         document.body.children["menu"].children[4].style.fontSize=(document.body.children["menu"].children[4].clientWidth*50)/189+"px"
-        console.log(document.body.children["menu"].children[2].style.fontSize);
+        console.log(document.body.children["menu"].children[4].style.fontSize);
+
+        
+        document.body.style.backgroundSize="160%";
 
     }
 
