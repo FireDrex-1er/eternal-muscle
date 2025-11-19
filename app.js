@@ -1,5 +1,7 @@
 setInterval(() => {
     if (document.body.clientHeight > document.body.clientWidth ) {
+        
+        document.body.style.backgroundSize="160%";
         document.getElementById("Bras_Epaule").style.fontSize="20px";
         document.getElementById("Dos").style.fontSize="20px";
         document.getElementById("Os").style.fontSize="20px";
