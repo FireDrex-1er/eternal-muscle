@@ -1,14 +1,76 @@
-setInterval(() => {
+window.addEventListener("load",()=>{
+    
     if (document.body.clientHeight > document.body.clientWidth ) {
-        
-        document.body.style.backgroundSize="160%";
-        document.getElementById("Bras_Epaule").style.fontSize="20px";
-        document.getElementById("Dos").style.fontSize="20px";
-        document.getElementById("Os").style.fontSize="20px";
+
+        document.body.children["head"].style.width="75%";
+        document.body.children["head"].style.width="75%";
+        document.body.children["head"].children["ligne"].children["anime_menu_burger"].children["menu_burger"].style.width="25px";
+
     }
     if (document.body.clientHeight < document.body.clientWidth ) {
-        document.getElementById("Dos").style.fontSize="30px";
-        document.getElementById("Bras_Epaule").style.fontSize="30px";
-        document.getElementById("os").style.fontSize="30px";
+        
+        document.body.children["head"].style.width="14%";
+        document.body.children["head"].style.width="14%";
+        document.body.children["head"].children["ligne"].children["anime_menu_burger"].children["menu_burger"].style.width="45px";
+
+    }
+
+});
+   
+setInterval(() => {
+    if (document.body.clientHeight > document.body.clientWidth ) {
+
+        document.body.children["head"].style.width="75%";
+        document.body.children["head"].style.width="75%";
+        document.body.children["head"].children["ligne"].children["anime_menu_burger"].children["menu_burger"].style.width="25px";
+
+    }
+    if (document.body.clientHeight < document.body.clientWidth ) {
+        
+        document.body.children["head"].style.width="14%";
+        document.body.children["head"].style.width="14%";
+        document.body.children["head"].children["ligne"].children["anime_menu_burger"].children["menu_burger"].style.width="45px";
+
     }
 }, 500);
+
+    let click_menuBurger = 0;
+
+document.getElementById("menu_burger").addEventListener("click",()=>{
+
+
+    if (click_menuBurger == 0) {
+        setTimeout(() => {
+
+            if (document.body.clientHeight > document.body.clientWidth ) {
+        
+                document.body.children["head"].style.left="-69%";
+        
+            }
+            if (document.body.clientHeight < document.body.clientWidth ) {
+                
+                document.body.children["head"].style.left="-12.5%";
+        
+            }
+            click_menuBurger = 1;
+            
+        }, 100);
+        
+    }
+    if (click_menuBurger == 1) {
+        
+        document.body.children["head"].style.left="0%";
+        click_menuBurger = 0;
+
+    }
+
+
+});
+
+document.body.children["head"].children[2].addEventListener('click', function() {
+    window.location.href = '/eternal_muscle%20v2/Bras/index.html';
+});document.body.children["head"].children[3].addEventListener('click', function() {
+    window.location.href = '/eternal_muscle%20v2/Dos/index.html';
+});document.body.children["menu"].children["fil_d_Ariane"].children[0].addEventListener('click', function() {
+    window.location.href = '/eternal_muscle%20v2/index.html';
+});
