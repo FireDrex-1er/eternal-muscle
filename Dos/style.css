@@ -1,0 +1,196 @@
+body{
+    position: absolute;
+    top: 0%;left: 0%;
+    width: 100%;height: 100%;
+    margin: 0%;padding: 0%;
+    background-color: #821714;
+    user-select: none;
+
+    /*
+    background-image: url(assets/étoile.png);
+    background-repeat:repeat;
+    background-position: 50px -50px;
+    background-size: 80%;
+    */
+}
+body #head{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+
+    width: 14%;
+    height: 100%;
+    background-color: #AA3936;
+    z-index: 2;
+    transition: 1s;
+}
+body #head #logo{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 75%;
+    z-index: 10;
+
+    padding: 0% 0% 10% 0%;
+    border-bottom: 2px solid #000;
+
+}#head #ligne{
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translate(-50%);
+
+    height: 100%;
+    width: 1%;
+    background-color: #000;
+}
+#ligne #menu_burger{
+
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid #232323;
+
+    background-color: #AA3936;
+    cursor: pointer;
+}#anime_menu_burger{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}#menu_burger:hover{
+    animation: menu_burger 0.5s;
+}
+@keyframes menu_burger {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+body #head .icon{
+    position: absolute;
+    width: 50px;
+    left: 0%;
+    top: 50%;
+    transform: translate(-90%,-50%);
+    background-color: inherit;
+    border: inherit;
+    z-index: 2;
+    border-radius: 50%;
+    padding: 5%;
+}body #head .titre{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}body #head .nav_Element{
+    padding: 1% 2% 1% 2%;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}body #head .nav_Element:hover{
+    background-color: #D46966;
+}
+body #head .nav_Element:nth-of-type(2){
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+}body #head .nav_Element:nth-of-type(3){
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}body #head .nav_Element:nth-of-type(4){
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%);
+}body #head .nav_Element:nth-of-type(5){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#menu #fil_d_Ariane{
+
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: auto;
+    user-select: none;
+    width: max-content;
+
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: thin;
+    color: #D46966;
+
+}#menu #fil_d_Ariane *{
+
+    cursor: pointer;
+    text-align: center;
+
+}
+
+#menu .exos_element{
+    
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+    width: 15%;
+    cursor: pointer;
+}
+
+#menu * img{
+
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    width: 100%;
+    border-radius: 50%;
+
+
+}#menu * .titre{
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    text-align: center;
+    padding: 1% 5% 1% 5%;
+
+    font-size: 25px;
+    font-family: serif;
+    font-weight: bold;
+    background-color: #821714;
+    border: 2px solid #AA3936;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #d46a6673;
+
+}#menu .exos_element:nth-of-type(2){
+
+    top: 50%;
+    left: 25%;
+    
+}#menu .exos_element:nth-of-type(3){
+
+    top: 50%;
+    left: 75%;
+    
+}
+
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 75%;
+    border-radius: 10px;
+    background-color: #000;
+}

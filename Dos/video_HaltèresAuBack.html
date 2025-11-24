@@ -43,21 +43,19 @@
             <span class="menu">Menu</span>
              ➠ 
             <span class="bras">Dos</span>
+             ➠ 
+            <span class="Vidéo">video_haltères au back</span>
 
         </div>
-        <div class="exos_element">
-
-            <img src="../assets/image/grand_dorsaux.png" alt="">
-            <div class="titre">Haltères au back</div>
-
-        </div>
-        <div class="exos_element">
-
-            <img src="../assets/image/trapèze.png" alt="">
-            <div class="titre">latfront</div>
-
-        </div>
+        <video src="../assets/vidéo/dorsaux.mp4" controls></video>
     </div>
-    <script src="app.js"></script>
+    <script src="app_video.js"></script>
+    <script>
+
+        document.body.children["menu"].children["fil_d_Ariane"].children[2].addEventListener('click', function() {
+            window.location.href = '/eternal_muscle%20v2/Dos/video_HaltèresAuBack.html';
+        });
+        
+    </script>
 </body>
 </html>
