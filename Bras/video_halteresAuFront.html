@@ -43,21 +43,19 @@
             <span class="menu">Menu</span>
              ➠ 
             <span class="bras">Bras</span>
+             ➠ 
+            <span class="Vidéo">video_haltères au front</span>
 
         </div>
-        <div class="exos_element">
-
-            <img src="../assets/image/Biceps.png" alt="">
-            <div class="titre">Curl</div>
-
-        </div>
-        <div class="exos_element">
-
-            <img src="../assets/image/triceps.png" alt="">
-            <div class="titre">Haltères au front</div>
-
-        </div>
+        <video src="../assets/vidéo/haltères au front.mp4" controls height="75%"></video>
     </div>
-    <script src="app.js"></script>
+    <script src="app_video.js"></script>
+    <script>
+
+        document.body.children["menu"].children["fil_d_Ariane"].children[2].addEventListener('click', function() {
+            window.location.href = '/eternal_muscle%20v2/Bras/video_halteresAuFront.html';
+        });
+        
+    </script>
 </body>
 </html>
