@@ -71,6 +71,8 @@ document.body.children["head"].children[2].addEventListener('click', function() 
     window.location.href = 'https://eternal-musculation.netlify.app/Bras/index.html';
 });document.body.children["head"].children[3].addEventListener('click', function() {
     window.location.href = 'https://eternal-musculation.netlify.app/Dos/index.html';
+});document.body.children["head"].children[5].addEventListener('click', function() {
+    window.location.href = 'https://eternal-musculation.netlify.app/Epaule/index.html';
 });document.body.children["menu"].children["fil_d_Ariane"].children[0].addEventListener('click', function() {
     window.location.href = 'https://eternal-musculation.netlify.app/index.html';
 });
