@@ -109,9 +109,9 @@ document.body.children["head"].children[2].addEventListener('click', function() 
 });document.body.children["menu"].children["fil_d_Ariane"].children[0].addEventListener('click', function() {
     window.location.href = 'https://eternal-musculation.netlify.app/index.html';
 });document.body.children["menu"].children["fil_d_Ariane"].children[1].addEventListener('click', function() {
-    window.location.href = 'https://eternal-musculation.netlify.app/Bras/index.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Dos/index.html';
 });document.body.children["menu"].children[1].addEventListener('click', function() {
-    window.location.href = 'https://eternal-musculation.netlify.app/Bras/video_curl.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Dos/video_HaltèresAuBack.html';
 });document.body.children["menu"].children[2].addEventListener('click', function() {
-    window.location.href = 'https://eternal-musculation.netlify.app/Bras/video_halteresAuFront.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Dos/video_latfront.html';
 });
