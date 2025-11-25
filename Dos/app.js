@@ -103,15 +103,15 @@ document.getElementById("menu_burger").addEventListener("click",()=>{
 });
 
 document.body.children["head"].children[2].addEventListener('click', function() {
-    window.location.href = '/eternal_muscle%20v2/Bras/index.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Bras/index.html';
 });document.body.children["head"].children[3].addEventListener('click', function() {
-    window.location.href = '/eternal_muscle%20v2/Dos/index.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Dos/index.html';
 });document.body.children["menu"].children["fil_d_Ariane"].children[0].addEventListener('click', function() {
-    window.location.href = '/eternal_muscle%20v2/index.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/index.html';
 });document.body.children["menu"].children["fil_d_Ariane"].children[1].addEventListener('click', function() {
-    window.location.href = '/eternal_muscle%20v2/Dos/index.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Dos/index.html';
 });document.body.children["menu"].children[1].addEventListener('click', function() {
-    window.location.href = '/eternal_muscle%20v2/Dos/video_HaltèresAuBack.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Dos/video_HaltèresAuBack.html';
 });document.body.children["menu"].children[2].addEventListener('click', function() {
-    window.location.href = '/eternal_muscle%20v2/Dos/video_latfront.html';
+    window.location.href = 'https://eternal-musculation.netlify.app/Dos/video_latfront.html';
 });
