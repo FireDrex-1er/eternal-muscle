@@ -24,7 +24,7 @@
 
         </div>
         <div class="nav_Element">
-
+        
             <img class="icon" src="assets/Icône/epaule.ico" alt="">
             <div class="titre">Epaule</div>
 
@@ -43,21 +43,19 @@
             <span class="menu">Menu</span>
              ➠ 
             <span class="bras">Bras</span>
+             ➠ 
+            <span class="Vidéo">video_Pompe Piquées</span>
 
         </div>
-        <div class="exos_element">
-
-            <img src="../assets/image/deltoïde_avant&lateral.png" alt="deltoïde">
-            <div class="titre">Pompe piquées</div>
-
-        </div>
-        <div class="exos_element">
-
-            <img src="../assets/image/deltoïde_arriere&lateral.png" alt="">
-            <div class="titre">Lateral Raise</div>
-
-        </div>
+        <video src="../assets/vidéo/Pompe_piquées.mp4" controls></video>
     </div>
-    <script src="app.js"></script>
+    <script src="app_video.js"></script>
+    <script>
+
+        document.body.children["menu"].children["fil_d_Ariane"].children[2].addEventListener('click', function() {
+            window.location.href = 'https://eternal-musculation.netlify.app/Epaule/video_PompePiquees.html';
+        });
+        
+    </script>
 </body>
 </html>
