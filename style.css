@@ -1,135 +1,223 @@
 body{
     position: absolute;
-    top: 0%;left: 0%;
-    width: 100%;height: 100%;
-    margin: 0%;padding: 0%;
-    background-color: #821714;
-    user-select: none;
-
-    /*
-    background-image: url(assets/étoile.png);
-    background-repeat:repeat;
-    background-position: 50px -50px;
-    background-size: 80%;
-    */
-}
-body #head{
-    position: fixed;
     top: 0%;
     left: 0%;
-
-    width: 14%;
+    width: 100%;
     height: 100%;
-    background-color: #AA3936;
-    z-index: 2;
-    transition: 1s;
+    margin: 0%;
+    padding: 0%;
+    background-color: #222;
+}*{
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
 }
-body #head #logo{
-    position: absolute;
-    top: 1%;
-    left: 50%;
-    transform: translate(-50%);
-    width: 75%;
-    z-index: 10;
 
-    padding: 0% 0% 10% 0%;
-    border-bottom: 2px solid #000;
-}#head #ligne{
-    position: absolute;
-    top: 0%;
-    left: 100%;
-    transform: translate(-50%);
-
-    height: 100%;
-    width: 1%;
-    background-color: #000;
-}
-#ligne #menu_burger{
-
-    width: 45px;
-    border-radius: 50%;
-    border: 2px solid #232323;
-
-    background-color: #AA3936;
-    cursor: pointer;
-}#anime_menu_burger{
+body #menu{
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
+    height: 100%;
     transform: translate(-50%,-50%);
-}#menu_burger:hover{
-    animation: menu_burger 0.5s;
-}
-@keyframes menu_burger {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-}
-
-body #head .icon{
+    transition: 3s;
+}body #menu div{
     position: absolute;
-    width: 50px;
-    left: 0%;
-    top: 50%;
-    transform: translate(-90%,-50%);
-    background-color: inherit;
-    border: inherit;
-    z-index: 2;
-    border-radius: 50%;
-    padding: 5%;
-}body #head .titre{
-    font-family: sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-}body #head .nav_Element{
-    padding: 1% 2% 1% 2%;
-    border-radius: 0px 10px 10px 0px;
-    cursor: pointer;
-}body #head .nav_Element:hover{
-    background-color: #D46966;
-}
-body #head .nav_Element:nth-of-type(2){
-    position: absolute;
-    top: 30%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%);
-}body #head .nav_Element:nth-of-type(3){
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%);
-}body #head .nav_Element:nth-of-type(4){
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%);
-}body #head .nav_Element:nth-of-type(5){
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-#menu #fil_d_Ariane{
-
-    position: absolute;
-    top: 2%;
-    left: 50%;
-    transform: translate(-50%);
-    cursor: auto;
-    user-select: none;
-
-    font-size: 25px;
-    font-family: sans-serif;
-    font-weight: thin;
-    color: #D46966;
-
-}#menu #fil_d_Ariane *{
-
-    cursor: pointer;
+    transform: translate(-50%,-0%);
     text-align: center;
+}body #menu div span{
+    color: #666;
+    font-size: 30px;
+}body #menu div span span{
+
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c;
+    letter-spacing: 1px;
+    user-select: text;
+    cursor: pointer;
+}body #menu div span span:hover{
+
+
+    color: #222;
+    text-shadow: 0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00;
+
+}
+
+body #exercice{
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    transition: 3s;
+}body #exercice div{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    text-align: center;
+}body #exercice div span{
+    color: #666;
+    font-size: 30px;
+}body #exercice div span .titre{
+
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900;
+    letter-spacing: 1px;
+    user-select: text;
+    cursor: pointer;
+}body #exercice div span .vert{
+
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090;
+    letter-spacing: 1px;
+    user-select: text;
+    cursor: pointer;
+
+}body #exercice div span .retour{
+
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c,0px  0px 2px #00c;
+    letter-spacing: 1px;
+    user-select: text;
+    cursor: pointer;
+    
+}body #exercice div span span:hover{
+
+
+    color: #222;
+    text-shadow: 0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00;
+
+}body #exercice div span .text{
+
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #555,0px 0px 2px #555,0px 0px 2px #555,0px 0px 2px #555,0px 0px 2px #555,0px 0px 2px #555,0px 0px 2px #555,0px 0px 2px #555,0px 0px 2px #555;
+    letter-spacing: 1px;
+    user-select: text;
+    cursor: pointer;
+
+}body #exercice div span .text:hover{
+
+
+    color: #222;
+    text-shadow: 0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00;
+
+}
+
+body #temps{
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    transition: 3s;
+}body #temps #haut{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    height: 50%;
+    width: 100%;
+    transform: translate(-50%,0%);
+    align-content: center;
+    text-align: center;
+}body #temps #bas{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 50%;
+    width: 100%;
+    transform: translate(-50%,-100%);
+    text-align: center;
+    align-content: center;
+    border-top: 2px solid #555;
+}body #temps #haut .temps{
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090;
+    letter-spacing: 1px;
+    user-select: text;
+}body #temps #haut .text{
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900;
+    letter-spacing: 1px;
+    user-select: text;
+
+}body #temps #bas span{
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900,0px 0px 2px #ff9900;
+    letter-spacing: 1px;
+    user-select: text;
+
+}body #temps #bas .temps{
+
+    color: #222;
+    text-align: center;
+    align-content: center;
+    
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-shadow: 0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090,0px 0px 2px #090;
+    letter-spacing: 1px;
+    user-select: text;
 
 }
