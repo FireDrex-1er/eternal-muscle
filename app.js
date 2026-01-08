@@ -285,3 +285,9 @@ function temps(lieu,fin) {
     
 }
 
+
+if (document.body.clientWidth >= 470) {
+    document.body.children["fond"].style.width="100%";
+    document.body.children["fond"].style.height="auto";
+    
+}
