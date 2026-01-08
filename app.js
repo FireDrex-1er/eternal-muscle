@@ -48,13 +48,6 @@ function temps(lieu,fin) {
                 temps = 3;
                 afficher.innerHTML = temps;
                 mouvement = 2;
-
-
-
-              temps = 15;
-              tempsText = 15;
-              mouvement = 0;
-              mouvementText = 0;
               }if (temps < 0 && mouvement == 2) {
                 temps = 1;
                 afficher.innerHTML = temps;
