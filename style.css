@@ -13,6 +13,15 @@ body{
     user-select: none;
 }
 
+body img{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    image-rendering: pixelated;
+}
+
 body #menu{
     position: absolute;
     top: 50%;
@@ -33,7 +42,7 @@ body #menu{
 }body #menu div span span{
 
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     
@@ -47,7 +56,7 @@ body #menu{
 }body #menu div span span:hover{
 
 
-    color: #222;
+    color: #000;
     text-shadow: 0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00;
 
 }
@@ -86,7 +95,7 @@ body #exercice{
 }body #exercice div span .vert{
 
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     
@@ -101,7 +110,7 @@ body #exercice{
 }body #exercice div span .retour{
 
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     
@@ -116,13 +125,13 @@ body #exercice{
 }body #exercice div span span:hover{
 
 
-    color: #222;
+    color: #000;
     text-shadow: 0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00;
 
 }body #exercice div span .text{
 
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     
@@ -137,7 +146,7 @@ body #exercice{
 }body #exercice div span .text:hover{
 
 
-    color: #222;
+    color: #000;
     text-shadow: 0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00,0px 0px 2px #c00;
 
 }
@@ -168,10 +177,10 @@ body #temps{
     transform: translate(-50%,-100%);
     text-align: center;
     align-content: center;
-    border-top: 2px solid #555;
+    border-top: 2px solid #00f;
 }body #temps #haut .temps{
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     
@@ -183,7 +192,7 @@ body #temps{
     user-select: text;
 }body #temps #haut .text{
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     
@@ -196,7 +205,7 @@ body #temps{
 
 }body #temps #bas span{
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     
@@ -209,7 +218,7 @@ body #temps{
 
 }body #temps #bas .temps{
 
-    color: #222;
+    color: #000;
     text-align: center;
     align-content: center;
     

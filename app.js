@@ -235,7 +235,6 @@ function temps(lieu,fin) {
               }
             }
           }, 1000);
-
           setInterval(() => {
               if (fin === false) {
                 if (tempsText >= 0) {
