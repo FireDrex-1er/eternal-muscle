@@ -1,18 +1,23 @@
-document.body.children["menu"].children[0].children[0].children[2].addEventListener("click",()=>{
+document.body.children["menu"].children[0].children[0].children[0].addEventListener("click",()=>{
     
     document.body.children["menu"].style.top="-200%";
     document.body.children["exercice"].style.top="50%";
     
-});document.body.children["exercice"].children[0].children[0].children[9].addEventListener("click",()=>{
+});document.body.children["exercice"].children[0].children[0].children["retour"].addEventListener("click",()=>{
     
-    document.body.children["menu"].style.top="50%";
+    document.body.children["menu"].style.top="0%";
     document.body.children["exercice"].style.top="-200%";
     
-});document.body.children["exercice"].children[0].children[0].children[8].addEventListener("click",()=>{
+});document.body.children["exercice"].children[0].children[0].children["go"].addEventListener("click",()=>{
     
     document.body.children["temps"].style.top="50%";
     document.body.children["exercice"].style.top="-100%";
     temps("biceps",false);
+    
+});document.body.children["temps"].children["bas"].children[0].children["retour"].addEventListener("click",()=>{
+    
+    document.body.children["temps"].style.top="-200%";
+    document.body.children["exercice"].style.top="50%";
     
 });
 function temps(lieu,fin) {
@@ -27,7 +32,6 @@ function temps(lieu,fin) {
         let tempsText = 15;
         let mouvement = 0;
         let mouvementText = 0;
-        fin = false;
 
         
         text.innerHTML="préparation";
@@ -286,8 +290,18 @@ function temps(lieu,fin) {
 }
 
 
-if (document.body.clientWidth >= 470) {
+if (document.body.clientWidth >= 1000) {
     document.body.children["fond"].style.width="100%";
     document.body.children["fond"].style.height="auto";
     
+}if (document.body.clientWidth <= 450) {
+
+  document.body.children["exercice"].children[0].children[0].children["retour"].style.left="30%";
+  document.body.children["exercice"].children[0].children[0].children["retour"].style.transform="translate(-50%,-100%)";
+  document.body.children["exercice"].children[0].children[0].children["retour"].style.padding="9% 3.25% 9% 3.25%";
+  document.body.children["exercice"].children[0].children[0].children["go"].style.left="70%";
+  document.body.children["exercice"].children[0].children[0].children["go"].style.transform="translate(-50%,-100%)";
+  document.body.children["exercice"].children[0].children[0].children["go"].style.padding="9% 3.5% 9% 3.5%";
+    
 }
+
