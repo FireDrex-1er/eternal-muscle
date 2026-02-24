@@ -1,48 +1,38 @@
-setInterval(() => {
-    if (document.body.clientWidth <= 425) {
-        document.getElementById("element_head_timothe").style.fontSize="20px";
-        document.getElementById("element_head_timothe").style.position='fixed';
-        document.getElementById("element_head_timothe").style.left="25%";
-        document.getElementById("element_head_timothe").style.transform="translate(-50%,-145%)";
+document.body.children["head"].children["head_texte_principal"].children["head_muscle"].addEventListener("click",()=>{
+  if (document.body.children["head"].children["sous_head_muscle"].style.top == "110%") {
+    setTimeout(() => {
+      document.body.children["head"].children["sous_head_muscle"].style.top="-1100%";
+    }, 100);
+  }
+  if (document.body.children["head"].children["sous_head_muscle"].style.top == "-1100%") {
+    document.body.children["head"].children["sous_head_muscle"].style.top="110%";      
+  }
+    
+});document.body.children["head"].children["head_texte_principal"].children["head_os"].addEventListener("click",()=>{
+  if (document.body.children["head"].children["sous_head_os"].style.top == "110%") {
+    setTimeout(() => {
+      document.body.children["head"].children["sous_head_os"].style.top="-1100%";
+    }, 100);
+  }
+  if (document.body.children["head"].children["sous_head_os"].style.top == "-1100%") {
+    document.body.children["head"].children["sous_head_os"].style.top="110%";      
+  }
+    
+});
 
-        document.getElementById("element_head_sebastien").style.fontSize="20px";
-        document.getElementById("element_head_sebastien").style.position='fixed';
-        document.getElementById("element_head_sebastien").style.left="25%";
-        document.getElementById("element_head_sebastien").style.transform="translate(-50%,50%)";
-
-        document.getElementById("element_head_serge").style.fontSize="20px";
-        document.getElementById("element_head_serge").style.position='fixed';
-        document.getElementById("element_head_serge").style.left="75%";
-        document.getElementById("element_head_serge").style.transform="translate(-50%,-145%)";
-
-        document.getElementById("element_head_elyne").style.fontSize="20px";
-        document.getElementById("element_head_elyne").style.position='fixed';
-        document.getElementById("element_head_elyne").style.transform="translate(-50%,50%)";
-        document.getElementById("element_head_elyne").style.left="75%";
-
-        document.getElementById("logo").style.height="70%";
-    }if (document.body.clientWidth > 425) {
-        document.getElementById("element_head_timothe").style.fontSize="40px";
-        document.getElementById("element_head_timothe").style.position='fixed';
-        document.getElementById("element_head_timothe").style.left="12,5%";
-        document.getElementById("element_head_timothe").style.transform="translate(0%,-50%)";
-
-        document.getElementById("element_head_sebastien").style.fontSize="40px";
-        document.getElementById("element_head_sebastien").style.position='fixed';
-        document.getElementById("element_head_sebastien").style.left="37,5%";
-        document.getElementById("element_head_sebastien").style.transform="translate(0%,-50%)";
-
-        document.getElementById("element_head_serge").style.fontSize="40px";
-        document.getElementById("element_head_serge").style.position='fixed';
-        document.getElementById("element_head_serge").style.left="62,5%";
-        document.getElementById("element_head_serge").style.transform="translate(-100%,-50%)";
-
-        document.getElementById("element_head_elyne").style.fontSize="40px";
-        document.getElementById("element_head_elyne").style.position='fixed';
-        document.getElementById("element_head_elyne").style.transform="translate(-100%,-50%)";
-        document.getElementById("element_head_elyne").style.left="87,5%";
-
-        document.getElementById("logo").style.height="90%";
-    }
-}, 500);
-
+document.body.children["head"].children["sous_head_muscle"].children[0].addEventListener("click",()=>{ 
+  if (document.body.children["body"].children["video"].style.zIndex == "2") {
+    setTimeout(() => {
+      document.body.children["body"].children["video"].style.zIndex = "3"
+      document.body.children["head"].children["sous_head_muscle"].style.top="-1100%";
+    }, 100);
+  } 
+});document.body.children["head"].children["logo"].addEventListener("click",()=>{ 
+  if (document.body.children["body"].children["video"].style.zIndex == "3") {
+    setTimeout(() => {
+      document.body.children["body"].children["video"].style.zIndex = "2"
+      document.body.children["head"].children["sous_head_muscle"].style.top="-1100%";
+      document.body.children["head"].children["sous_head_os"].style.top="-1100%";
+    }, 100);
+  }
+});
