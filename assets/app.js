@@ -1,6 +1,6 @@
 
 
-if (document.body.baseURI == "http://127.0.0.1:5500/3/objectif%202/?/T%C3%AAte_longue_du_biceps_brachial/") {
+if (document.body.baseURI == "https://sportif-shadow.netlify.app/?/T%C3%AAte_longue_du_biceps_brachial/") {
     
     document.getElementById("body_0").style.top="-100%";
     document.getElementById("body_1").style.top="0%";
@@ -15,7 +15,7 @@ if (document.body.baseURI == "http://127.0.0.1:5500/3/objectif%202/?/T%C3%AAte_l
     document.getElementById("body_1_%MVC").innerHTML="80% MVC(contraction maximale volontaire)";
 
     
-}if (document.body.baseURI == "http://127.0.0.1:5500/3/objectif%202/?/T%C3%AAte_courte_du_biceps_brachial/") {
+}if (document.body.baseURI == "https://sportif-shadow.netlify.app/?/T%C3%AAte_courte_du_biceps_brachial/") {
     
     document.getElementById("body_0").style.top="-100%";
     document.getElementById("body_1").style.top="0%";
@@ -30,7 +30,7 @@ if (document.body.baseURI == "http://127.0.0.1:5500/3/objectif%202/?/T%C3%AAte_l
     document.getElementById("body_1_%MVC").innerHTML="85% MVC(contraction maximale volontaire)";
 
     
-}if (document.body.baseURI == "http://127.0.0.1:5500/3/objectif%202/?/Coracobrachialis/") {
+}if (document.body.baseURI == "https://sportif-shadow.netlify.app/?/Coracobrachialis/") {
     
     document.getElementById("body_0").style.top="-100%";
     document.getElementById("body_1").style.top="0%";
@@ -45,7 +45,7 @@ if (document.body.baseURI == "http://127.0.0.1:5500/3/objectif%202/?/T%C3%AAte_l
     document.getElementById("body_1_%MVC").innerHTML="70% MVC(contraction maximale volontaire)";
 
     
-}if (document.body.baseURI == "http://127.0.0.1:5500/3/objectif%202/?/Brachial/") {
+}if (document.body.baseURI == "https://sportif-shadow.netlify.app/?/Brachial/") {
     
     document.getElementById("body_0").style.top="-100%";
     document.getElementById("body_1").style.top="0%";
