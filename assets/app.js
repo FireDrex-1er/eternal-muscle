@@ -115,6 +115,12 @@ document.body.children["body_1"].children[0].children[3].children[1].children[2]
     document.getElementById("body_1").style.top="11%";
     document.getElementById("body_2").style.top="11%";
 
+});document.body.children["body_1"].children[0].children[0].addEventListener("click",()=>{
+
+    document.getElementById("body_0").style.top="11%";
+    document.getElementById("body_1").style.top="-100%";
+    document.getElementById("body_2").style.top="-100%";
+
 });
 document.body.children["body_2"].children[1].addEventListener("click",()=>{
 
