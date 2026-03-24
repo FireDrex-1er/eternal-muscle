@@ -133,18 +133,19 @@ li{
 }
 #body_0 a, #body_1 a{
     text-decoration-line:unset;
-    color: #111;
+    color: var(--Body0AColor);
     border-bottom-style: dotted;
-    border-bottom-color: #888;
+    border-bottom-color: #9005;
     transition: 1.5s;
     cursor: pointer;
 }#body_0 a:hover, #body_1 a:hover{
     transition: 1s;
     border-bottom-style: solid;
-    border-bottom-color: #111;
+    border-bottom-color: var(--Body0AColor);
 }
 
 :root{
+    --Body0AColor:#911;
     --fondHead:#111;
     --fond: #ddd;
     --SizeText1:20px;
